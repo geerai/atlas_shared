@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atlas-shared.local/question_constitution.schema.json",
+  "title": "Atlas Question Constitution Bank",
+  "type": "object",
+  "required": ["version", "questions"],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question_id",
+          "question_text",
+          "topic",
+          "panel_status",
+          "constitution_version",
+          "environment_terms",
+          "outcome_terms",
+          "exclusion_terms",
+          "edge_terms",
+          "accept_indicators",
+          "reject_indicators",
+          "edge_case_indicators"
+        ],
+        "properties": {
+          "question_id": {"type": "string"},
+          "question_text": {"type": "string"},
+          "topic": {"type": "string"},
+          "subtopic": {"type": "string"},
+          "panel_status": {
+            "type": "string",
+            "enum": ["draft", "llm_panel_drafted", "panel_reviewed", "panel_confirmed"]
+          },
+          "constitution_version": {"type": "string"},
+          "environment_terms": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "outcome_terms": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "exclusion_terms": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "edge_terms": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "search_hints": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "required_evidence_terms": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "accept_indicators": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "reject_indicators": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "edge_case_indicators": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "allowed_article_types": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "marginal_article_types": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "rejected_article_types": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "llm_panel_summary": {"type": "string"},
+          "llm_prompt_version": {"type": "string"},
+          "panel_markdown_path": {"type": "string"},
+          "panel_notes": {"type": "string"},
+          "source_question": {"type": "string"},
+          "source_question_bank": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}
