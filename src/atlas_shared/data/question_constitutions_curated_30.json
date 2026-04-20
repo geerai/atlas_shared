@@ -1,0 +1,1847 @@
+{
+  "version": "2026-04-13",
+  "questions": [
+    {
+      "question_id": "SQ-001",
+      "question_text": "What empirical evidence supports the claim that natural environments restore directed attention better than urban environments?",
+      "topic": "Attention Restoration Theory",
+      "subtopic": "Core evidence",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": [
+        "natural environment",
+        "nature",
+        "green space",
+        "forest",
+        "park",
+        "garden",
+        "vegetation",
+        "biophilic",
+        "green view",
+        "outdoor nature"
+      ],
+      "outcome_terms": [
+        "directed attention",
+        "attention restoration",
+        "sustained attention",
+        "executive function",
+        "attention fatigue",
+        "cognitive restoration",
+        "working memory",
+        "attentional capacity",
+        "involuntary attention",
+        "soft fascination"
+      ],
+      "exclusion_terms": [
+        "ADHD",
+        "attention deficit",
+        "attention disorder",
+        "clinical treatment",
+        "restorative justice",
+        "nature of attention"
+      ],
+      "edge_terms": [
+        "stress recovery",
+        "mood restoration",
+        "relaxation",
+        "fatigue recovery",
+        "positive affect",
+        "well-being",
+        "preference"
+      ],
+      "search_hints": [
+        "attention restoration theory",
+        "directed attention fatigue",
+        "nature restorative",
+        "Kaplan involuntary attention",
+        "backward digit span nature",
+        "ANT nature exposure"
+      ],
+      "required_evidence_terms": [
+        "participants",
+        "sample",
+        "experiment",
+        "pre-test post-test",
+        "attention task",
+        "random",
+        "p <"
+      ],
+      "accept_indicators": [
+        "The study exposes human participants to natural versus urban or built environments and measures a cognitive outcome interpretable as directed attention, executive function, sustained attention, or working memory under attentional load.",
+        "The study uses a controlled or quasi-experimental design where the environmental condition (natural vs. non-natural) is the independent variable or primary predictor, not merely a covariate.",
+        "The study reports quantitative outcomes — effect sizes, significance tests, or descriptive statistics — sufficient to evaluate whether nature exposure produced a measurable change in attentional performance.",
+        "Meta-analyses or systematic reviews that pool multiple studies of nature exposure and attention-related outcomes are directly relevant even if individual studies within vary in quality."
+      ],
+      "reject_indicators": [
+        "The paper is about ADHD treatment using nature as a therapeutic modality. Clinical nature-based ADHD management is a distinct research question from general attention restoration.",
+        "The paper studies nature exposure but measures only stress biomarkers (cortisol, HRV, blood pressure) or self-reported mood/affect with no attention or cognitive measure. These belong to SQ-004.",
+        "The paper is a landscape preference or aesthetic judgment study where participants rate how much they like nature scenes with no cognitive performance outcome.",
+        "The word 'nature' in the title refers to 'the nature of X' (the character or essence of something) rather than to natural environments."
+      ],
+      "edge_case_indicators": [
+        "The paper exposes participants to nature and measures physiological stress recovery alongside a brief cognitive measure that could be interpreted as attention-related (e.g., reaction time). Whether the cognitive measure is substantive enough to count as attention evidence requires human judgment.",
+        "The paper invokes 'restorative environments' or 'cognitive restoration' in the Kaplan framework but actually measures general well-being, relaxation, or positive affect rather than directed attention specifically. The term 'restoration' is genuinely ambiguous in this literature.",
+        "The paper uses an attention-adjacent measure (reaction time, Stroop, vigilance) that plausibly taps directed attention but is not a standard ART measure (like backward digit span or ANT).",
+        "The paper tests virtual or simulated nature (images, video, VR) rather than real outdoor nature. This is topically relevant but tests a different mechanism (digital vs. real), and the boundary is itself informative."
+      ],
+      "allowed_article_types": [
+        "empirical_research",
+        "meta_analysis",
+        "systematic_review"
+      ],
+      "marginal_article_types": [
+        "narrative_review",
+        "theoretical",
+        "case_study",
+        "qualitative_research",
+        "methods",
+        "mixed_methods"
+      ],
+      "rejected_article_types": [
+        "book_review",
+        "editorial",
+        "computational_simulation",
+        "preprint"
+      ],
+      "llm_panel_summary": "Panel of 5 including Ming Kuo (Michigan, ART empirical) and Marc Berman (Chicago, computational neuroscience). Central distinction: papers must measure attention/cognition, not just mood or stress. The 'restoration' ambiguity (attention vs. stress vs. wellbeing) is the primary escalation trigger. Indoor plants, virtual nature, and exercise-confounded nature walks are defined edge cases.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-001_ATTENTION_RESTORATION_CORE_PANEL.md",
+      "panel_notes": "SQ-001 overlaps conceptually with the existing SQ-ART-001 starter constitution. SQ-001 is broader (any nature exposure) while SQ-ART-001 is narrower (specific attention tasks in adults). Both are preserved as separate entries from different question banks.",
+      "source_question": "What empirical evidence supports the claim that natural environments restore directed attention better than urban environments?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-002",
+      "question_text": "What studies distinguish fascination as the active mechanism in attention restoration from mere relaxation or positive affect?",
+      "topic": "Attention Restoration Theory",
+      "subtopic": "Mechanism",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": [
+        "natural environment",
+        "nature",
+        "restorative environment",
+        "green space",
+        "biophilic",
+        "natural setting"
+      ],
+      "outcome_terms": [
+        "fascination",
+        "soft fascination",
+        "involuntary attention",
+        "attention restoration",
+        "effortless attention",
+        "directed attention recovery",
+        "PRS fascination subscale"
+      ],
+      "exclusion_terms": [
+        "fascinating results",
+        "fascination with technology",
+        "captivating narrative",
+        "ADHD",
+        "clinical attention deficit"
+      ],
+      "edge_terms": [
+        "relaxation",
+        "positive affect",
+        "mood improvement",
+        "being away",
+        "extent",
+        "compatibility",
+        "perceived restorativeness"
+      ],
+      "search_hints": [
+        "fascination attention restoration",
+        "involuntary attention mechanism",
+        "ART mechanism isolation",
+        "PRS fascination subscale",
+        "soft fascination Kaplan"
+      ],
+      "required_evidence_terms": [
+        "fascination",
+        "attention",
+        "mediation",
+        "mechanism",
+        "PRS",
+        "participants"
+      ],
+      "accept_indicators": [
+        "The study explicitly attempts to isolate fascination (soft fascination, involuntary attention capture) as a mediator or mechanism in attention restoration, rather than treating nature as an undifferentiated treatment.",
+        "The study measures both an attention outcome AND a fascination-related construct (PRS fascination subscale, rated fascination, involuntary attention) and tests whether fascination mediates the restoration effect.",
+        "The study contrasts fascination against a competing mechanism — positive mood, relaxation, reduced arousal, or distraction — to determine whether fascination adds explanatory power beyond affect.",
+        "The study manipulates fascination levels experimentally (e.g., high- vs. low-fascination scenes matched on pleasantness) to test mechanism causality."
+      ],
+      "reject_indicators": [
+        "The paper measures attention restoration after nature exposure but does not measure or manipulate fascination at all. These papers belong to SQ-001, not SQ-002.",
+        "The paper studies aesthetic preference for natural scenes without any cognitive or attention outcome. Fascination appears in aesthetics, but without an attention measure the mechanism question is not addressed.",
+        "The word 'fascination' is used in the colloquial sense ('fascination with technology', 'public fascination with crime') and has no connection to environmental psychology.",
+        "The paper uses the Perceived Restorativeness Scale but only reports composite scores without isolating the fascination subscale."
+      ],
+      "edge_case_indicators": [
+        "The paper reports PRS fascination scores as a dependent variable but does not test mediation — the data is there but the mechanism analysis is missing.",
+        "The paper from the SRT tradition argues that stress reduction (not fascination) is the active ingredient. These are counter-mechanism papers and directly relevant even though they challenge ART.",
+        "The paper uses mindfulness or contemplative language about 'effortless attention' or 'open awareness' that overlaps with Kaplanian fascination but originates in a different theoretical tradition.",
+        "The paper provides neuroimaging evidence (DMN activity during nature viewing) that could be interpreted as neural correlate of fascination but does not use the term."
+      ],
+      "allowed_article_types": [
+        "empirical_research",
+        "meta_analysis",
+        "systematic_review"
+      ],
+      "marginal_article_types": [
+        "narrative_review",
+        "theoretical",
+        "qualitative_research"
+      ],
+      "rejected_article_types": [
+        "book_review",
+        "editorial",
+        "computational_simulation"
+      ],
+      "llm_panel_summary": "Panel of 5 including Yannick Joye (experimental aesthetics) and Agnes van den Berg (SRT critic). The key challenge is that most ART studies test the overall effect but do not isolate fascination. The constitution deliberately includes counter-mechanism papers (SRT arguments that stress reduction, not fascination, is the active ingredient) because these directly address the question.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-002_ART_FASCINATION_MECHANISM_PANEL.md",
+      "panel_notes": "This question has the most overlap risk with SQ-001 (both about ART). The distinguishing criterion is whether the paper attempts to isolate the mechanism, not just demonstrate the effect.",
+      "source_question": "What studies distinguish fascination as the active mechanism in attention restoration from mere relaxation or positive affect?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-003",
+      "question_text": "Can built indoor environments (offices, classrooms, hospitals) produce attention restoration effects comparable to outdoor nature?",
+      "topic": "Attention Restoration Theory",
+      "subtopic": "Built environment",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": [
+        "indoor environment",
+        "office",
+        "classroom",
+        "hospital room",
+        "biophilic design",
+        "indoor plants",
+        "living wall",
+        "green wall",
+        "nature view from window",
+        "natural materials",
+        "simulated nature",
+        "virtual nature"
+      ],
+      "outcome_terms": [
+        "attention restoration",
+        "cognitive performance",
+        "directed attention",
+        "mental fatigue recovery",
+        "cognitive restoration",
+        "concentration",
+        "sustained attention"
+      ],
+      "exclusion_terms": [
+        "indoor environment quality",
+        "IEQ",
+        "HVAC",
+        "thermal comfort only",
+        "energy performance",
+        "green building certification",
+        "CPTED"
+      ],
+      "edge_terms": [
+        "biophilic",
+        "productivity",
+        "well-being",
+        "satisfaction",
+        "daylighting",
+        "window view",
+        "post-occupancy evaluation"
+      ],
+      "search_hints": [
+        "indoor nature restorative",
+        "biophilic design attention",
+        "window view restoration office",
+        "indoor plants cognitive performance"
+      ],
+      "required_evidence_terms": [
+        "participants",
+        "occupants",
+        "indoor",
+        "office",
+        "classroom",
+        "cognitive",
+        "attention"
+      ],
+      "accept_indicators": [
+        "The study tests whether an indoor built environment containing nature elements (plants, water features, natural light, nature views, natural materials, nature imagery) produces measurable attention restoration, cognitive recovery, or reduced directed attention fatigue in occupants.",
+        "The study compares an indoor biophilic condition against a non-biophilic indoor control condition using a cognitive or attention-related outcome measure.",
+        "The study compares indoor nature exposure against outdoor nature exposure to directly test whether the indoor condition achieves comparable restoration effects.",
+        "Post-occupancy evaluation studies of biophilic buildings that include cognitive performance or attention measures alongside satisfaction or wellness outcomes."
+      ],
+      "reject_indicators": [
+        "The paper studies outdoor nature exposure only with no indoor or built-environment condition. These papers belong to SQ-001.",
+        "The paper studies indoor environments but measures only thermal comfort, acoustic satisfaction, or air quality with no psychological or cognitive outcome. These are IEQ studies.",
+        "The paper concerns window design, daylighting, or view quality but measures only energy performance, glare, or illuminance without any occupant psychological response.",
+        "The paper discusses biophilic design as an aesthetic or philosophical movement with no empirical data on cognitive or attention outcomes."
+      ],
+      "edge_case_indicators": [
+        "Hospital nature-view studies (Ulrich-type) measuring clinical recovery but not cognitive function directly. The mechanism may be stress recovery rather than attention restoration.",
+        "Indoor plant studies measuring 'productivity' as a composite. Whether 'productivity' includes attention depends on how it is operationalized — a single self-report item vs. a behavioral measure.",
+        "Multi-factor IEQ studies where biophilic design elements are one of many simultaneously changed variables. The biophilic contribution cannot be isolated from the bundle.",
+        "Classroom daylighting studies measuring student test scores. Daylight is a nature element, but the mechanism may be circadian alignment or visual comfort rather than ART."
+      ],
+      "allowed_article_types": [
+        "empirical_research",
+        "meta_analysis",
+        "systematic_review"
+      ],
+      "marginal_article_types": [
+        "narrative_review",
+        "case_study",
+        "theoretical",
+        "methods"
+      ],
+      "rejected_article_types": [
+        "book_review",
+        "editorial",
+        "computational_simulation"
+      ],
+      "llm_panel_summary": "Panel of 5 including Bill Browning (Terrapin, biophilic design) and Chanuki Seresinhe (Warwick, computational scenic analysis). Core challenge: SQ-003 sits at the intersection of ART theory, biophilic design practice, and building performance research, which use different vocabularies. Window views, virtual nature, and daylight are borderline — they involve nature but the mechanism may not be ART.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-003_ART_BUILT_ENVIRONMENT_PANEL.md",
+      "panel_notes": "Overlaps with SQ-008 (biophilic design in offices, which focuses on stress/wellbeing) and SQ-012 (hospital window views). SQ-003 is distinguished by requiring an attention outcome specifically.",
+      "source_question": "Can built indoor environments (offices, classrooms, hospitals) produce attention restoration effects comparable to outdoor nature?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-004",
+      "question_text": "What physiological markers (cortisol, heart rate, skin conductance) show recovery after exposure to natural versus urban environments?",
+      "topic": "Stress Recovery Theory",
+      "subtopic": "Physiological measures",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": [
+        "natural environment",
+        "nature",
+        "forest",
+        "park",
+        "green space",
+        "urban environment",
+        "city",
+        "built environment",
+        "streetscape"
+      ],
+      "outcome_terms": [
+        "cortisol",
+        "salivary cortisol",
+        "heart rate",
+        "heart rate variability",
+        "HRV",
+        "skin conductance",
+        "blood pressure",
+        "alpha-amylase",
+        "respiratory rate",
+        "respiratory sinus arrhythmia",
+        "NK cell activity",
+        "adrenaline",
+        "noradrenaline"
+      ],
+      "exclusion_terms": [
+        "physiological ecology",
+        "environmental toxicology",
+        "pollution exposure",
+        "occupational stress only",
+        "heart rate recovery exercise",
+        "cortisol circadian rhythm only",
+        "animal model"
+      ],
+      "edge_terms": [
+        "self-reported stress",
+        "perceived stress",
+        "mood",
+        "relaxation",
+        "recovery",
+        "well-being",
+        "immunological"
+      ],
+      "search_hints": [
+        "Ulrich stress recovery nature",
+        "cortisol nature exposure",
+        "physiological stress urban nature",
+        "HRV forest bathing",
+        "nature pill cortisol"
+      ],
+      "required_evidence_terms": [
+        "cortisol",
+        "heart rate",
+        "HRV",
+        "skin conductance",
+        "blood pressure",
+        "physiological",
+        "participants",
+        "nature"
+      ],
+      "accept_indicators": [
+        "The study exposes human participants to natural versus urban environments and measures at least one physiological stress biomarker (cortisol, HR, HRV, SCL, blood pressure, respiratory rate, or alpha-amylase).",
+        "The study uses a within-subjects or between-subjects design where the environmental condition is the independent variable, and physiological recovery or change is the dependent variable.",
+        "The study reports time-series or pre-post physiological measurements that allow assessment of recovery dynamics, not just a single snapshot.",
+        "Epidemiological or large-cohort studies linking green space exposure to chronic physiological outcomes (lower resting cortisol, reduced cardiovascular risk) as population-level evidence."
+      ],
+      "reject_indicators": [
+        "The paper measures only self-reported stress, mood, or affect with no physiological biomarker. These provide psychological evidence but do not address SQ-004's physiological focus.",
+        "The paper studies physiological responses to exercise, meditation, or relaxation without environmental manipulation — the environment must be the independent variable.",
+        "The paper is about environmental toxicology where physiological outcomes reflect harm (pollution, noise damage) rather than restorative exposure.",
+        "The paper uses animal models of stress in natural settings — SQ-004 specifies human participants."
+      ],
+      "edge_case_indicators": [
+        "Forest bathing (shinrin-yoku) studies in Japanese populations measuring cortisol and NK cells. They are directly relevant physiologically but raise population-transfer questions (see SQ-009).",
+        "Studies using a single morning cortisol sample rather than multiple time points. Diurnal slope or recovery trajectory cannot be assessed from one sample.",
+        "Hospital nature-view studies measuring clinical recovery outcomes (length of stay, analgesic use) as proxies for physiological recovery. No direct biomarker was measured.",
+        "Immune markers (NK cells, immunoglobulins) after nature exposure. These are physiological but extend beyond the classic cortisol/HR/SCL trio named in the question."
+      ],
+      "allowed_article_types": [
+        "empirical_research",
+        "meta_analysis",
+        "systematic_review"
+      ],
+      "marginal_article_types": [
+        "narrative_review",
+        "methods"
+      ],
+      "rejected_article_types": [
+        "book_review",
+        "editorial",
+        "qualitative_research",
+        "computational_simulation"
+      ],
+      "llm_panel_summary": "Panel of 5 including MaryCarol Hunter (Michigan, nature pill/cortisol) and Mathew White (Exeter, BlueHealth). The question has the broadest evidence base in the bank but the main risk is over-inclusion. The constitution prioritizes studies measuring physiological time-course or recovery dynamics rather than single-snapshot associations. Pruessner's cortisol methodology expertise ensures the biomarker quality standard is maintained.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-004_STRESS_RECOVERY_PHYSIOLOGY_PANEL.md",
+      "panel_notes": "SQ-004 has the most overlap with SQ-009 (shinrin-yoku) and SQ-006 (ART-vs-SRT dual-pathway). Any paper that measures BOTH attention and physiology should be flagged for SQ-006.",
+      "source_question": "What physiological markers (cortisol, heart rate, skin conductance) show recovery after exposure to natural versus urban environments?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-005",
+      "question_text": "What evidence directly tests the hypothesis that safety signalling — rather than mere pleasantness — explains why savanna-like landscapes reduce stress?",
+      "topic": "Stress Recovery Theory",
+      "subtopic": "Safety signalling",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": [
+        "savanna",
+        "open landscape",
+        "prospect",
+        "refuge",
+        "landscape",
+        "visibility",
+        "openness",
+        "scattered trees",
+        "grassland",
+        "water feature"
+      ],
+      "outcome_terms": [
+        "safety appraisal",
+        "threat detection",
+        "stress reduction",
+        "preference",
+        "perceived safety",
+        "fear response",
+        "relaxation",
+        "landscape preference"
+      ],
+      "exclusion_terms": [
+        "savanna ecology",
+        "paleoanthropology",
+        "safety culture",
+        "safety climate",
+        "CPTED",
+        "crime prevention",
+        "landscape ecology",
+        "signal transduction"
+      ],
+      "edge_terms": [
+        "prospect-refuge",
+        "habitat theory",
+        "processing fluency",
+        "aesthetic preference",
+        "landscape complexity",
+        "biophobia",
+        "evolutionary preference"
+      ],
+      "search_hints": [
+        "savanna hypothesis stress",
+        "prospect refuge theory Appleton",
+        "evolutionary landscape preference safety",
+        "safety signalling environment"
+      ],
+      "required_evidence_terms": [
+        "safety",
+        "pleasantness",
+        "preference",
+        "landscape",
+        "savanna",
+        "prospect",
+        "participants"
+      ],
+      "accept_indicators": [
+        "The study tests whether savanna-like landscape features (openness, scattered trees, prospect-refuge balance, water visibility) reduce stress through a safety-signalling mechanism, distinguishing this from mere pleasantness or aesthetic preference.",
+        "The study distinguishes between pleasantness and safety/threat appraisal as competing explanations, using separate measures for each dimension.",
+        "The study manipulates landscape features associated with the savanna hypothesis and measures either safety-related appraisals or physiological stress responses.",
+        "The study tests evolutionary specificity — that savanna preferences are cross-culturally universal or present in infants/very young children without culturally learned nature exposure."
+      ],
+      "reject_indicators": [
+        "The paper studies landscape aesthetics or scenic beauty ratings without measuring or mentioning safety, threat appraisal, or stress.",
+        "The paper is about actual crime and safety in urban environments (CPTED, street lighting and crime) rather than evolutionary safety signalling.",
+        "The paper concerns savanna ecology, paleoanthropology, or human evolution without including a psychological experiment on living humans.",
+        "The paper studies fear conditioning or phobia treatment that does not involve landscape or environmental stimuli."
+      ],
+      "edge_case_indicators": [
+        "Prospect-refuge studies that measure preference but do not explicitly use the term 'safety.' Prospect-refuge is arguably a specification of safety signalling, but the connection must be made explicit.",
+        "Studies of 'restorative' landscapes that happen to have savanna features but are not framed in evolutionary terms. The landscape may signal safety without the researcher explicitly hypothesizing it.",
+        "Cross-cultural landscape preference studies providing indirect evidence for evolved preference without testing the mechanism (safety vs. pleasantness vs. familiarity).",
+        "Papers from the processing fluency tradition (Joye, Reber) offering an alternative explanation — savanna landscapes are preferred because they are easy to process, not because they signal safety."
+      ],
+      "allowed_article_types": [
+        "empirical_research",
+        "meta_analysis",
+        "systematic_review"
+      ],
+      "marginal_article_types": [
+        "narrative_review",
+        "theoretical"
+      ],
+      "rejected_article_types": [
+        "book_review",
+        "editorial",
+        "computational_simulation"
+      ],
+      "llm_panel_summary": "Panel of 5 including Colin Ellard (Waterloo, psychogeography) and Yannick Joye (ISM, processing fluency alternative). SQ-005 is the hardest question in Batch 1 — direct tests of safety-vs-pleasantness are genuinely rare. The constitution casts a wide net while flagging when a paper assumes safety signalling rather than testing it. Competing explanations (processing fluency) are deliberately included.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-005_SAFETY_SIGNALLING_SAVANNA_PANEL.md",
+      "panel_notes": "This question has the sparsest expected evidence base. Papers are more likely to be tangential or conceptual than empirical. The constitution accepts theoretical papers as marginal because the hypothesis itself may need refinement.",
+      "source_question": "What evidence directly tests the hypothesis that safety signalling — rather than mere pleasantness — explains why savanna-like landscapes reduce stress?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-006",
+      "question_text": "What studies have attempted to empirically separate ART (attention fatigue restoration) from SRT (physiological stress recovery) pathways in the same experimental design?",
+      "topic": "ART vs SRT",
+      "subtopic": "Empirical confound",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": [
+        "nature",
+        "natural environment",
+        "forest",
+        "park",
+        "green space",
+        "urban environment"
+      ],
+      "outcome_terms": [
+        "attention restoration",
+        "stress recovery",
+        "directed attention",
+        "cortisol",
+        "heart rate",
+        "cognitive performance",
+        "executive function",
+        "dual-pathway",
+        "mediation"
+      ],
+      "exclusion_terms": [
+        "dual-process theory Kahneman",
+        "System 1 System 2",
+        "cognitive stress test anxiety",
+        "stress and attention academic"
+      ],
+      "edge_terms": [
+        "restoration",
+        "recovery",
+        "rumination",
+        "well-being",
+        "mood and cognition",
+        "unified process"
+      ],
+      "search_hints": [
+        "ART SRT dissociation",
+        "attention restoration stress recovery compare",
+        "Kaplan Ulrich same study mechanism",
+        "dual-pathway restoration"
+      ],
+      "required_evidence_terms": [
+        "attention",
+        "stress",
+        "both",
+        "compare",
+        "pathway",
+        "mediation",
+        "participants"
+      ],
+      "accept_indicators": [
+        "The study measures BOTH an attention/cognitive outcome AND a stress/physiological outcome in the same sample after the same nature exposure, enabling pathway comparison.",
+        "The study explicitly frames its design around the ART-vs-SRT question, acknowledging the confound and attempting to adjudicate between the two theories.",
+        "The study uses mediation or path-analytic methods to test whether attention benefits are explained by stress reduction, or whether the two pathways are independent.",
+        "Review or theoretical papers systematically comparing ART and SRT predictions to identify where they diverge — these provide the intellectual framework for separating the theories."
+      ],
+      "reject_indicators": [
+        "Papers testing ART alone (cognitive outcomes only, no stress measure). These belong to SQ-001.",
+        "Papers testing SRT alone (physiological stress outcomes only, no cognitive measure). These belong to SQ-004.",
+        "Papers that report attention and stress as independent outcomes without any comparison, contrast, or mediation analysis between the pathways.",
+        "Papers about stress and attention in non-environmental contexts (test anxiety, cognitive load) with no nature or environmental manipulation."
+      ],
+      "edge_case_indicators": [
+        "Studies measuring both outcomes but not testing mediation — the data for comparison exists even if the authors did not perform the relevant analysis.",
+        "Papers arguing that ART and SRT are not truly separate — that attention fatigue IS a form of stress and restoration is a unitary process. These challenge the question's premise but are directly relevant.",
+        "Nature and rumination studies (Bratman-type) where rumination involves both cognitive and affective processes, making it impossible to assign to one pathway cleanly.",
+        "Dose-response studies with multiple measures revealing different time courses for attention vs. stress recovery — time-course divergence is strong evidence for pathway separation."
+      ],
+      "allowed_article_types": [
+        "empirical_research",
+        "meta_analysis",
+        "systematic_review",
+        "theoretical"
+      ],
+      "marginal_article_types": [
+        "narrative_review"
+      ],
+      "rejected_article_types": [
+        "book_review",
+        "editorial",
+        "computational_simulation"
+      ],
+      "llm_panel_summary": "Panel of 5 including Terry Hartig (Uppsala, ART testing) and Agnes van den Berg (Wageningen, SRT/ART comparison). This is the central confound in the field. Very few studies have been explicitly designed to separate the pathways. The constitution is deliberately inclusive, accepting papers providing any data on pathway differentiation (time-course differences, dose-response divergence, population dissociation).",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-006_ART_VS_SRT_CONFOUND_PANEL.md",
+      "panel_notes": "Cross-reference: any paper relevant to both SQ-001 and SQ-004 that measures dual outcomes is a candidate for SQ-006.",
+      "source_question": "What studies have attempted to empirically separate ART (attention fatigue restoration) from SRT (physiological stress recovery) pathways in the same experimental design?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-007",
+      "question_text": "What experimental evidence supports the biophilia hypothesis — an innate human affinity for natural environments — as opposed to learned preference?",
+      "topic": "Biophilia",
+      "subtopic": "Evolutionary basis",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": [
+        "natural environment",
+        "nature",
+        "landscape",
+        "biophilia",
+        "natural stimuli",
+        "vegetation",
+        "water",
+        "animal presence"
+      ],
+      "outcome_terms": [
+        "preference",
+        "innate",
+        "evolutionary",
+        "cross-cultural",
+        "infant preference",
+        "looking time",
+        "implicit association",
+        "learned",
+        "mere exposure"
+      ],
+      "exclusion_terms": [
+        "biophilia conservation",
+        "biodiversity activism",
+        "pet ownership",
+        "animal-assisted therapy",
+        "innate immunity",
+        "natural selection only"
+      ],
+      "edge_terms": [
+        "cultural variation",
+        "familiarity",
+        "mere exposure effect",
+        "processing fluency",
+        "environmental learning",
+        "developmental trajectory"
+      ],
+      "search_hints": [
+        "biophilia hypothesis evidence",
+        "innate nature preference",
+        "cross-cultural biophilia Wilson",
+        "infant landscape preference"
+      ],
+      "required_evidence_terms": [
+        "preference",
+        "innate",
+        "evolutionary",
+        "cross-cultural",
+        "infant",
+        "experiment",
+        "participants"
+      ],
+      "accept_indicators": [
+        "The study provides experimental or quasi-experimental evidence for an innate (not learned) human preference for natural environments — e.g., infant or very young child studies with minimal cultural nature exposure.",
+        "The study tests universality of nature preference across cultures, especially comparing populations with substantially different nature-exposure histories.",
+        "The study tests specific predictions of the biophilia hypothesis against competing explanations — cultural conditioning, processing fluency, mere exposure, or social learning.",
+        "The study provides evidence from populations with limited nature experience (urban-only residents, clinical populations) to test whether nature preference persists with minimal exposure history."
+      ],
+      "reject_indicators": [
+        "The paper discusses philosophical or ethical dimensions of biophilia without empirical data on nature preference.",
+        "The paper is about biodiversity conservation invoking 'biophilia' as a motivation for environmental activism but not testing the psychological hypothesis.",
+        "The paper studies pet ownership, animal-assisted therapy, or human-animal bonding without addressing landscape or environmental preference.",
+        "The paper discusses genetic determinism or evolutionary psychology debates using 'innate' as a philosophical concept without empirical testing."
+      ],
+      "edge_case_indicators": [
+        "Nature preference studies in children aged 3-8. By age 3 children have had substantial cultural exposure, but age-gradient data can still distinguish maturation from learning.",
+        "Mere exposure studies testing whether repeated nature exposure increases preference. These are counter-evidence (supporting learning) and therefore directly relevant.",
+        "Studies of nature sounds or scents (not landscapes) where biophilia may extend beyond visual preference to other sensory modalities.",
+        "Twin studies of nature preference providing evidence for genetic vs. environmental origins of landscape preference."
+      ],
+      "allowed_article_types": [
+        "empirical_research",
+        "meta_analysis",
+        "systematic_review"
+      ],
+      "marginal_article_types": [
+        "narrative_review",
+        "theoretical",
+        "qualitative_research"
+      ],
+      "rejected_article_types": [
+        "book_review",
+        "editorial",
+        "computational_simulation"
+      ],
+      "llm_panel_summary": "Panel of 5 including Peter Kahn (Washington, human-nature interaction) and Vanessa LoBue (Rutgers, infant attention to natural stimuli). The innate-vs-learned distinction is notoriously difficult to test. The constitution deliberately includes counter-evidence (mere exposure, cultural learning) because the question asks 'as opposed to learned preference.'",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-007_BIOPHILIA_INNATE_VS_LEARNED_PANEL.md",
+      "panel_notes": "Consider cross-referencing with SQ-029 (cultural variation in nature preference) — evidence against universality may also be relevant here.",
+      "source_question": "What experimental evidence supports the biophilia hypothesis — an innate human affinity for natural environments — as opposed to learned preference?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-008",
+      "question_text": "What design features — plants, water, natural light, natural materials — show the strongest evidence for reducing stress or improving wellbeing in offices?",
+      "topic": "Biophilia",
+      "subtopic": "Design translation",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": [
+        "indoor plants",
+        "water feature",
+        "fountain",
+        "natural light",
+        "daylight",
+        "natural materials",
+        "wood",
+        "stone",
+        "bamboo",
+        "green wall",
+        "living wall",
+        "nature view",
+        "nature imagery",
+        "office",
+        "workplace"
+      ],
+      "outcome_terms": [
+        "stress reduction",
+        "wellbeing",
+        "well-being",
+        "job satisfaction",
+        "mood",
+        "cortisol",
+        "productivity",
+        "sick leave",
+        "absenteeism",
+        "comfort"
+      ],
+      "exclusion_terms": [
+        "energy performance",
+        "carbon footprint",
+        "LEED certification only",
+        "HVAC",
+        "green building sustainability",
+        "outdoor workplace",
+        "residential"
+      ],
+      "edge_terms": [
+        "productivity",
+        "satisfaction",
+        "preference",
+        "biophilic design",
+        "POE",
+        "post-occupancy",
+        "daylight circadian"
+      ],
+      "search_hints": [
+        "biophilic design office wellbeing",
+        "indoor plants stress reduction",
+        "natural light workplace health",
+        "natural materials office"
+      ],
+      "required_evidence_terms": [
+        "office",
+        "workplace",
+        "plants",
+        "daylight",
+        "natural materials",
+        "stress",
+        "wellbeing",
+        "participants"
+      ],
+      "accept_indicators": [
+        "The study tests the effect of a specific biophilic design feature (plants, water, daylight, natural materials, nature views, green walls, nature imagery) on stress or wellbeing in an office or workplace setting.",
+        "The study uses a controlled or quasi-experimental design comparing a workspace with the feature present versus absent, or varying levels of the feature.",
+        "Post-occupancy evaluation studies of offices that specifically isolate the contribution of biophilic design features to occupant stress or wellbeing outcomes.",
+        "Meta-analyses or systematic reviews pooling evidence across multiple biophilic design interventions in workplace settings."
+      ],
+      "reject_indicators": [
+        "The paper discusses biophilic design theory, philosophy, or advocacy with no measured occupant outcomes.",
+        "The paper measures only energy consumption, material sustainability, or carbon metrics with no occupant psychological outcomes.",
+        "The paper studies residential, hospital, or school environments rather than offices. These belong to SQ-003 or SQ-012.",
+        "The paper studies outdoor workplace environments rather than interior design features."
+      ],
+      "edge_case_indicators": [
+        "Multi-feature renovation studies where plants, daylight, and acoustics change simultaneously — the biophilic contribution cannot be isolated from the bundle.",
+        "Studies measuring 'productivity' as the outcome. Whether this counts depends on operationalization — a cognitive task vs. a single self-report item.",
+        "Simulated daylight (tunable LEDs) studies. These mimic natural light dynamics through technology, blurring the biophilic/technological boundary.",
+        "Home office studies during remote work. Whether 'home office' counts as 'office' for SQ-008 depends on how the workspace is described."
+      ],
+      "allowed_article_types": [
+        "empirical_research",
+        "meta_analysis",
+        "systematic_review"
+      ],
+      "marginal_article_types": [
+        "case_study",
+        "narrative_review",
+        "methods"
+      ],
+      "rejected_article_types": [
+        "book_review",
+        "editorial",
+        "computational_simulation"
+      ],
+      "llm_panel_summary": "Panel of 5 including Ruth Dalton (Lancaster, evidence-based design) and Ihab Elzeyadi (Oregon, biophilic design metrics). SQ-008 is the most applied question — the risk is over-inclusion of advocacy literature and case studies reporting impressions without measured outcomes. Bringslimark's meta-analysis expertise ensures evidence standards are maintained.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-008_BIOPHILIC_DESIGN_OFFICE_PANEL.md",
+      "panel_notes": "Overlaps with SQ-003 (attention in indoor environments). SQ-008 is distinguished by focusing on stress/wellbeing (not attention specifically) and on offices (not classrooms or hospitals).",
+      "source_question": "What design features — plants, water, natural light, natural materials — show the strongest evidence for reducing stress or improving wellbeing in offices?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-009",
+      "question_text": "How well do findings from Japanese forest-bathing (shinrin-yoku) studies generalise to Western or urban populations?",
+      "topic": "Biophilia",
+      "subtopic": "Population transfer",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": [
+        "forest",
+        "shinrin-yoku",
+        "forest bathing",
+        "forest therapy",
+        "forest medicine",
+        "woodland",
+        "cedar forest",
+        "temperate rainforest"
+      ],
+      "outcome_terms": [
+        "cortisol",
+        "NK cell",
+        "blood pressure",
+        "HRV",
+        "mood",
+        "stress",
+        "adrenaline",
+        "noradrenaline",
+        "immunological",
+        "psychological wellbeing"
+      ],
+      "exclusion_terms": [
+        "forest management",
+        "silviculture",
+        "timber production",
+        "forest ecology",
+        "bathing dermatology",
+        "hydrotherapy"
+      ],
+      "edge_terms": [
+        "nature walk",
+        "guided nature experience",
+        "nature-based therapy",
+        "cross-cultural",
+        "Korean forest therapy",
+        "virtual forest"
+      ],
+      "search_hints": [
+        "shinrin-yoku Western populations",
+        "forest bathing generalisation",
+        "cross-cultural nature stress Japan",
+        "forest therapy replication"
+      ],
+      "required_evidence_terms": [
+        "shinrin-yoku",
+        "forest bathing",
+        "forest therapy",
+        "Western",
+        "non-Japanese",
+        "cross-cultural",
+        "replication"
+      ],
+      "accept_indicators": [
+        "The study replicates a Japanese shinrin-yoku protocol or close variant in a non-Japanese population, measuring comparable physiological or psychological outcomes to allow effect-size comparison.",
+        "The study compares shinrin-yoku effects across two or more cultural or demographic populations within the same design.",
+        "A meta-analysis or systematic review of the shinrin-yoku literature that addresses population generalizability as a research question — effect sizes moderated by country, culture, or urbanization.",
+        "Adaptation studies modifying the shinrin-yoku protocol for Western populations and testing whether the modified protocol produces comparable effects."
+      ],
+      "reject_indicators": [
+        "Shinrin-yoku studies conducted only in Japanese populations with no discussion of generalizability. These are base evidence but do not address SQ-009.",
+        "General Western nature-exposure studies that do not reference or compare to the shinrin-yoku paradigm. These belong to SQ-001 or SQ-004.",
+        "Papers about forest ecology, forestry management, or timber production in Japan with no psychological or physiological component.",
+        "Tourism or recreational studies measuring only visitor satisfaction or economic impact."
+      ],
+      "edge_case_indicators": [
+        "European or American nature-walk studies closely resembling shinrin-yoku but not citing it. If the protocol is comparable (30-120 min guided sensory immersion in forest with physiological measurement), the study is functionally relevant regardless of labelling.",
+        "Korean or Chinese forest therapy studies. These are East Asian but not Japanese — they partially address the cross-cultural question but may share Confucian cultural attitudes toward nature.",
+        "Virtual shinrin-yoku studies testing VR forest environments in Western populations. These change both the population and the stimulus modality simultaneously.",
+        "NK cell activity studies in non-Japanese populations replicating Li's foundational finding. These are high-value transfer evidence but NK measurement is rare in Western studies."
+      ],
+      "allowed_article_types": [
+        "empirical_research",
+        "meta_analysis",
+        "systematic_review"
+      ],
+      "marginal_article_types": [
+        "narrative_review",
+        "qualitative_research"
+      ],
+      "rejected_article_types": [
+        "book_review",
+        "editorial",
+        "computational_simulation"
+      ],
+      "llm_panel_summary": "Panel of 5 including Qing Li (Nippon Medical School, forest medicine pioneer) and Kirsten McEwan (Derby, UK nature connectedness). SQ-009 is a population-transfer question. The key challenge is determining when a Western study is 'close enough' to shinrin-yoku to count as a replication. The constitution accepts protocol-similar studies even without explicit shinrin-yoku citation.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-009_SHINRIN_YOKU_GENERALIZABILITY_PANEL.md",
+      "panel_notes": "Cross-reference with SQ-004 (physiological markers). Any shinrin-yoku study measuring cortisol or HRV is also relevant to SQ-004.",
+      "source_question": "How well do findings from Japanese forest-bathing (shinrin-yoku) studies generalise to Western or urban populations?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-010",
+      "question_text": "What is the evidence for a Goldilocks optimal fractal dimension (approximately D=1.3–1.5) in visual patterns that reduces psychophysiological stress?",
+      "topic": "Fractal Patterns",
+      "subtopic": "Optimal range",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": [
+        "fractal",
+        "fractal dimension",
+        "visual pattern",
+        "natural pattern",
+        "tree branching",
+        "coastline",
+        "cloud formation",
+        "Pollock painting",
+        "architectural ornament",
+        "1/f noise"
+      ],
+      "outcome_terms": [
+        "psychophysiological stress",
+        "stress reduction",
+        "aesthetic preference",
+        "EEG alpha",
+        "skin conductance",
+        "relaxation",
+        "perceptual fluency",
+        "visual comfort"
+      ],
+      "exclusion_terms": [
+        "fractal medical imaging",
+        "fractal tumor analysis",
+        "retinal fractal dimension",
+        "bone density fractal",
+        "fractal antenna",
+        "self-similar network",
+        "stress fracture"
+      ],
+      "edge_terms": [
+        "visual complexity",
+        "optimal complexity",
+        "edge-orientation entropy",
+        "spatial frequency",
+        "1/f spectrum",
+        "processing fluency"
+      ],
+      "search_hints": [
+        "fractal dimension stress reduction",
+        "Taylor fractal 1.3",
+        "visual complexity psychophysiology",
+        "fractal fluency"
+      ],
+      "required_evidence_terms": [
+        "fractal dimension",
+        "D =",
+        "1.3",
+        "1.5",
+        "preference",
+        "stress",
+        "EEG",
+        "psychophysiological"
+      ],
+      "accept_indicators": [
+        "The study tests whether visual patterns with fractal dimension D ≈ 1.3-1.5 produce lower stress, greater preference, or more relaxed physiological states than patterns with higher or lower fractal dimensions.",
+        "The study systematically varies fractal dimension as the independent variable and measures a psychophysiological or stress-related outcome (EEG, skin conductance, cortisol, preference).",
+        "The study tests the fractal fluency hypothesis — that human visual processing is tuned to mid-range fractals and this processing ease produces positive responses.",
+        "The study measures responses to natural fractal patterns (tree branching, coastlines, clouds) and relates them to computed fractal dimension."
+      ],
+      "reject_indicators": [
+        "The paper is about fractal analysis as a mathematical technique with no human psychological or physiological response measurement.",
+        "The paper analyzes fractal patterns in medical imaging (tumors, retinal vessels, bone density) as a diagnostic tool, not as a stimulus for human perception.",
+        "The paper studies visual complexity or aesthetics without computing or manipulating fractal dimension. General complexity studies belong to SQ-022.",
+        "The paper studies fractals in music, temporal patterns, or auditory stimuli — SQ-010 specifies visual patterns."
+      ],
+      "edge_case_indicators": [
+        "1/f noise studies analyzing spatial frequency spectra in nature scenes. 1/f properties are related to fractal dimension but not identical — include if the paper connects spectral properties to the D=1.3-1.5 range.",
+        "Pollock painting perception studies. These are art studies but provide the empirical basis for the D=1.3-1.5 claim and inform environmental application.",
+        "Landscape preference studies with implicit fractal content — scenes with mid-range branching trees but no explicit fractal dimension computation.",
+        "Studies finding a different optimal range (D=1.2 or D=1.6). Counter-evidence is epistemically essential and must be included."
+      ],
+      "allowed_article_types": [
+        "empirical_research",
+        "meta_analysis",
+        "systematic_review"
+      ],
+      "marginal_article_types": [
+        "narrative_review",
+        "theoretical",
+        "methods"
+      ],
+      "rejected_article_types": [
+        "book_review",
+        "editorial",
+        "computational_simulation"
+      ],
+      "llm_panel_summary": "Panel of 5 including Richard Taylor (Oregon, fractal fluency originator) and Branka Spehar (UNSW, critical and supportive fractal research). The evidence base is concentrated in a small research group. The constitution must include independent replications, failures to replicate, and alternative accounts (EOE). Spehar provides intellectual balance as both collaborator and critic.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-010_FRACTAL_DIMENSION_OPTIMAL_PANEL.md",
+      "panel_notes": "Overlaps with SQ-011 (fractal mechanism — self-similarity vs. spatial frequency). SQ-010 asks about the empirical finding (is there an optimal range?); SQ-011 asks about the mechanism (why does this range work?).",
+      "source_question": "What is the evidence for a Goldilocks optimal fractal dimension (approximately D=1.3–1.5) in visual patterns that reduces psychophysiological stress?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-011",
+      "question_text": "Is the stress-reducing effect of fractal patterns explained by fractal self-similarity per se, or by spatial frequency and luminance contrast?",
+      "topic": "Fractal Patterns",
+      "subtopic": "Mechanism dispute",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["fractal", "self-similarity", "visual pattern", "natural pattern", "1/f noise", "spatial frequency", "amplitude spectrum", "phase-scrambled"],
+      "outcome_terms": ["aesthetic preference", "stress reduction", "perceptual fluency", "EEG alpha", "skin conductance", "relaxation", "visual comfort", "processing ease"],
+      "exclusion_terms": ["fractal medical imaging", "fractal antenna", "self-similar network", "stress fracture", "fractal compression"],
+      "edge_terms": ["1/f spectrum", "edge-orientation entropy", "spectral slope", "luminance contrast", "processing fluency", "visual complexity"],
+      "search_hints": ["fractal self-similarity mechanism", "spatial frequency fractal", "luminance contrast visual preference", "edge-orientation entropy aesthetic"],
+      "required_evidence_terms": ["fractal dimension", "spatial frequency", "1/f", "self-similarity", "preference", "EEG", "comparison"],
+      "accept_indicators": [
+        "The study directly tests whether fractal self-similarity is the operative feature driving stress reduction or preference, as against spatial frequency distribution, luminance contrast, or edge-orientation statistics.",
+        "The study uses stimuli that decouple fractal dimension from spatial frequency — e.g., phase-scrambled images preserving spectra but destroying structure.",
+        "The study provides a formal comparison between fractal dimension and an alternative image statistic as predictors of the same response variable.",
+        "The study uses neuroimaging to identify which image property is the better predictor of aesthetic or stress-related neural responses."
+      ],
+      "reject_indicators": [
+        "The study measures only fractal dimension and preference without testing any competing predictor. These belong to SQ-010.",
+        "The study concerns spatial frequency and contrast sensitivity in basic vision science with no aesthetic or stress connection.",
+        "The study is about fractals in mathematics, physics, or computer science with no perceptual component.",
+        "The study is about image compression or signal processing using fractal techniques as engineering tools."
+      ],
+      "edge_case_indicators": [
+        "1/f noise studies without explicit fractal framing but showing that images with 1/f amplitude spectra are preferred.",
+        "EOE (edge-orientation entropy) studies proposing an alternative to fractal dimension as the predictor of aesthetic preference — may not mention fractal.",
+        "Natural scene statistics studies connecting scene regularities to perceptual processing ease or affective response.",
+        "Phase-scrambled vs. intact image studies cleanly separating spectral from structural contributions."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["theoretical", "methods", "narrative_review"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Branka Spehar (UNSW, 1/f and fractal debate) and Christoph Redies (Jena, EOE alternative account). The key challenge is that many studies compute fractal dimension without testing alternatives. The constitution includes the EOE tradition and natural scene statistics as primary comparison accounts.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-011_FRACTAL_MECHANISM_DISPUTE_PANEL.md",
+      "panel_notes": "Mechanism companion to SQ-010. SQ-010 asks about the empirical finding; SQ-011 asks why.",
+      "source_question": "Is the stress-reducing effect of fractal patterns explained by fractal self-similarity per se, or by spatial frequency and luminance contrast?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-012",
+      "question_text": "What evidence shows that hospital patients with window views of nature recover faster or report lower pain than those with views of walls or urban scenes?",
+      "topic": "Views of Nature",
+      "subtopic": "Hospital recovery",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["window view", "nature view", "garden view", "hospital room", "patient room", "recovery room", "sky", "trees", "greenery", "wall view"],
+      "outcome_terms": ["length of stay", "analgesic use", "pain", "recovery", "patient outcome", "surgical recovery", "hospital discharge", "nurse notes"],
+      "exclusion_terms": ["window of opportunity", "nature of recovery", "patient view survey", "hospital management", "emergency department"],
+      "edge_terms": ["nature painting", "nature imagery", "healing garden", "simulated nature", "staff wellbeing", "neonatal"],
+      "search_hints": ["Ulrich window view hospital recovery", "nature view patient outcomes", "hospital design nature window"],
+      "required_evidence_terms": ["hospital", "window", "view", "recovery", "patient", "pain", "length of stay"],
+      "accept_indicators": [
+        "The study tests whether hospital patients with window views of natural scenes recover faster, report lower pain, or use fewer analgesics compared to patients with views of walls or built structures.",
+        "The study is conducted in a real clinical setting with actual patient recovery as the outcome.",
+        "The study uses a quasi-experimental or controlled-comparison design where window view is the primary differentiating variable.",
+        "Systematic reviews or meta-analyses pooling multiple hospital nature-view studies."
+      ],
+      "reject_indicators": [
+        "The paper studies nature exposure in non-clinical settings (offices, classrooms). These belong to SQ-001, SQ-003, or SQ-008.",
+        "The paper concerns hospital design focused on infection control, acoustics, or layout without a nature-view component.",
+        "The paper is about nature as a therapeutic activity (horticultural therapy, garden programs) where the activity — not the view — is the intervention.",
+        "The paper is about art in hospitals without comparing to actual window views."
+      ],
+      "edge_case_indicators": [
+        "Nature paintings or photographs in patient rooms — tests nature visual content but not the window-view mechanism specifically.",
+        "Healing gardens where patients physically enter the garden — involves more than window view.",
+        "Simulated nature views (screens, projections) as substitutes for windows — relevant to SQ-013 cross-reference.",
+        "Studies measuring clinician or staff outcomes rather than patient outcomes."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["case_study", "narrative_review", "theoretical"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Roger Ulrich (Chalmers, foundational 1984 study) and Esther Sternberg (Arizona, healing environments). The constitution must include replication attempts, failures, and methodological critiques — the original study had N=46 and no randomization.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-012_HOSPITAL_NATURE_VIEW_PANEL.md",
+      "panel_notes": "Anchored by Ulrich (1984), one of the most cited studies in environmental psychology. Cross-references SQ-013 (virtual nature) and SQ-030 (replication).",
+      "source_question": "What evidence shows that hospital patients with window views of nature recover faster or report lower pain than those with views of walls or urban scenes?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-013",
+      "question_text": "Do virtual or simulated nature views (screens, VR, projected scenes) produce restorative effects comparable to real windows onto nature?",
+      "topic": "Views of Nature",
+      "subtopic": "Virtual nature",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["virtual nature", "VR", "virtual reality", "simulated nature", "video nature", "nature photograph", "projected nature", "screen nature", "virtual window", "360-degree video"],
+      "outcome_terms": ["restorative effect", "stress reduction", "attention restoration", "mood", "preference", "presence", "immersion", "physiological response"],
+      "exclusion_terms": ["virtual environment simulation only", "VR exposure therapy", "VR gaming", "nature documentary", "virtual classroom"],
+      "edge_terms": ["fidelity", "resolution", "screen size", "head-mounted display", "augmented reality", "nature sounds combined"],
+      "search_hints": ["virtual nature restorative", "nature video stress recovery", "simulated window view wellbeing VR", "VR forest stress"],
+      "required_evidence_terms": ["virtual", "VR", "simulated", "screen", "nature", "comparison", "real", "restorative"],
+      "accept_indicators": [
+        "The study compares restorative outcomes between virtual/simulated nature and real nature exposure or real window views.",
+        "The study compares virtual nature to a non-nature control to establish whether simulated nature provides any restorative benefit.",
+        "The study tests dose-response relationships with virtual nature — duration, resolution, immersion level, or content fidelity.",
+        "Meta-analyses comparing effect sizes of virtual vs. real nature exposure across multiple studies."
+      ],
+      "reject_indicators": [
+        "The paper is about VR technology development or rendering algorithms without psychological outcomes.",
+        "The paper is about VR for exposure therapy using natural scenes as clinical tools.",
+        "The paper studies real nature exposure only with no simulated/virtual condition.",
+        "The paper is about virtual environments for purposes unrelated to nature."
+      ],
+      "edge_case_indicators": [
+        "Nature photographs in laboratory settings — technically simulated nature but not usually framed as a virtual-vs-real comparison.",
+        "Augmented reality nature overlays — a genuinely novel form of simulated nature.",
+        "Window-substitute screens displaying nature video in windowless rooms.",
+        "Sound-augmented virtual nature — VR environments with spatial audio where the visual component is not isolated."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["methods", "narrative_review", "case_study"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Mathew White (Vienna/Exeter, virtual nature wellbeing) and Andrea Stevenson Won (Cornell, VR experience). Rapidly growing post-COVID evidence base. The main challenge is the enormous variety of virtual nature implementations — from tablet photograph to full VR forest.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-013_VIRTUAL_NATURE_VIEWS_PANEL.md",
+      "panel_notes": "Cross-references SQ-012 (hospital views) and SQ-001 (ART). Rapidly evolving literature.",
+      "source_question": "Do virtual or simulated nature views (screens, VR, projected scenes) produce restorative effects comparable to real windows onto nature?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-014",
+      "question_text": "What is the evidence that natural sounds (birdsong, flowing water) reduce stress or improve cognitive performance compared to urban noise?",
+      "topic": "Acoustic Environment",
+      "subtopic": "Nature sounds",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["birdsong", "flowing water", "water sounds", "wind", "rain sounds", "ocean waves", "nature sounds", "natural soundscape", "insect sounds"],
+      "outcome_terms": ["stress reduction", "cognitive performance", "attention", "restoration", "relaxation", "cortisol", "HRV", "mood", "perceived restorativeness"],
+      "exclusion_terms": ["natural frequency engineering", "sound environment industrial", "bird call telecom", "bioacoustics animal behavior", "hearing damage"],
+      "edge_terms": ["soundscape pleasantness", "masking", "ASMR", "1/f temporal", "nature-music combination"],
+      "search_hints": ["birdsong stress reduction", "nature sounds cognitive performance", "acoustic environment wellbeing", "natural soundscape restoration"],
+      "required_evidence_terms": ["birdsong", "water sound", "nature sound", "soundscape", "stress", "cognition", "participants"],
+      "accept_indicators": [
+        "The study exposes human participants to natural sounds and measures stress reduction, cognitive performance, or restorative outcomes.",
+        "The study compares natural sounds to urban or anthropogenic noise using the same outcome measures.",
+        "The study examines soundscape composition — the ratio of natural to anthropogenic sounds — and its effect on psychological or physiological states.",
+        "Meta-analyses of the restorative effects of natural vs. urban soundscapes."
+      ],
+      "reject_indicators": [
+        "The paper is about noise pollution and hearing damage without any natural sound condition.",
+        "The paper is about music therapy or white noise for sleep without natural sound stimuli.",
+        "The paper studies bioacoustics (animal communication) — animal behavior, not human response.",
+        "The paper is about noise mapping or acoustic engineering without human outcomes."
+      ],
+      "edge_case_indicators": [
+        "Soundscape studies measuring pleasantness but not stress or cognition directly.",
+        "Nature-and-music combinations where the natural sound contribution cannot be isolated.",
+        "Outdoor studies where the soundscape is not the independent variable — sound is part of a bundled experience.",
+        "Studies of threatening natural sounds (thunderstorms, animal growls) producing stress rather than restoration."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["narrative_review", "methods", "theoretical"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Eleanor Ratcliffe (Surrey, bird sounds and restoration) and Gould van Praag (Oxford, fMRI nature sounds). The main challenge is distinguishing soundscape quality measurement from psychological restoration measurement.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-014_NATURE_SOUNDS_STRESS_PANEL.md",
+      "panel_notes": "Acoustic biophilia — growing literature. Cross-references SQ-015 (office noise) for acoustic dimension.",
+      "source_question": "What is the evidence that natural sounds (birdsong, flowing water) reduce stress or improve cognitive performance compared to urban noise?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-015",
+      "question_text": "How does noise from open-plan offices affect cognitive performance and stress, and what acoustic interventions most reduce the harm?",
+      "topic": "Acoustic Environment",
+      "subtopic": "Open-plan offices",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["open-plan office", "open office", "shared office", "office noise", "irrelevant speech", "speech intelligibility", "typing noise", "phone conversations", "office background noise"],
+      "outcome_terms": ["cognitive performance", "concentration", "memory", "stress", "cortisol", "distraction", "serial recall", "proofreading", "creative task", "productivity"],
+      "exclusion_terms": ["industrial noise hearing loss", "residential noise", "classroom acoustics", "concert hall acoustics", "noise cancellation signal processing"],
+      "edge_terms": ["activity-based working", "sound masking", "acoustic panels", "home office noise", "acoustic satisfaction", "speech privacy"],
+      "search_hints": ["open plan office noise cognitive", "acoustic privacy office", "speech intelligibility distraction", "irrelevant speech effect office"],
+      "required_evidence_terms": ["open-plan", "office", "noise", "cognitive", "performance", "speech", "distraction"],
+      "accept_indicators": [
+        "The study measures cognitive performance and/or stress in open-plan office environments with noise as the primary independent variable.",
+        "The study tests acoustic interventions (sound masking, absorptive materials, acoustic screens, noise-cancelling devices) and their effect on performance or stress.",
+        "The study compares performance across office types (open-plan vs. private) with acoustic conditions as a differentiating factor.",
+        "Laboratory studies using simulated open-plan office noise to test speech intelligibility effects on cognition."
+      ],
+      "reject_indicators": [
+        "The paper is about industrial noise exposure and hearing loss without cognitive outcomes.",
+        "The paper is about residential or neighborhood noise rather than workplace.",
+        "The paper is about classroom acoustics and student performance — different setting and population.",
+        "The paper is about office design focusing on lighting, thermal comfort, or layout without acoustic content."
+      ],
+      "edge_case_indicators": [
+        "Home office acoustics during remote work — different acoustic challenges from open-plan.",
+        "Activity-based working (ABW) studies — modern flexible offices sharing acoustic characteristics with open-plan.",
+        "Large-scale surveys measuring acoustic satisfaction but not cognitive performance.",
+        "Cognitive psychology lab studies of irrelevant sound effect without office context."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["case_study", "narrative_review", "methods"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Helena Jahncke (Gävle, office noise and cognition) and Valtteri Hongisto (Turku, room acoustics and standards). The literature spans cognitive psychology, acoustic engineering, and occupational health using different methods.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-015_OPEN_PLAN_OFFICE_NOISE_PANEL.md",
+      "panel_notes": "Most practically important acoustic question — affects hundreds of millions of office workers. Cross-references SQ-014 for nature-sound masking applications.",
+      "source_question": "How does noise from open-plan offices affect cognitive performance and stress, and what acoustic interventions most reduce the harm?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-016",
+      "question_text": "What evidence shows that dynamic or daylight-aligned lighting in workplaces improves sleep quality, alertness, or mood in non-clinical populations?",
+      "topic": "Lighting",
+      "subtopic": "Circadian alignment",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["dynamic lighting", "tunable LED", "daylight-aligned", "melanopic", "circadian lighting", "time-varying CCT", "spectral tuning", "daylight simulation"],
+      "outcome_terms": ["sleep quality", "alertness", "mood", "melatonin", "circadian phase", "DLMO", "sleepiness", "vitality", "actigraphy"],
+      "exclusion_terms": ["light therapy SAD", "shift-work disorder treatment", "screen blue light", "daylight saving time", "smart lighting energy", "mood lighting decorative"],
+      "edge_terms": ["nurse shift lighting", "classroom dynamic lighting", "windowless office", "evening light restriction", "subjective alertness only"],
+      "search_hints": ["dynamic lighting circadian workplace", "daylight spectrum alertness", "melanopic light sleep quality", "tunable LED office"],
+      "required_evidence_terms": ["dynamic", "circadian", "melanopic", "CCT", "sleep", "alertness", "workplace", "office"],
+      "accept_indicators": [
+        "The study tests dynamic lighting interventions and measures sleep quality, alertness, or mood in non-clinical workplace populations.",
+        "The study exposes participants to daylight-mimicking spectral distributions and measures circadian-related outcomes.",
+        "The study compares melanopically enriched daytime lighting against standard lighting with objective circadian outcomes.",
+        "Meta-analyses of dynamic/circadian-aligned workplace lighting in non-clinical populations."
+      ],
+      "reject_indicators": [
+        "The paper is about clinical light therapy for SAD or circadian rhythm disorders.",
+        "The paper is about daylighting through windows measuring only energy savings or glare.",
+        "The paper is about lighting ergonomics without circadian, mood, or alertness outcomes.",
+        "The paper is about screen light and blue light from devices without workplace lighting context."
+      ],
+      "edge_case_indicators": [
+        "Nurse shift-work lighting studies — workplace population but clinical circadian challenge.",
+        "School classroom lighting for student alertness.",
+        "Simulated daylight (tunable LED) in windowless offices.",
+        "Studies measuring only subjective alertness without objective circadian markers."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["narrative_review", "theoretical", "methods"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Mariana Figueiro (Mount Sinai, circadian lighting) and Christian Cajochen (Basel, sleep physiology). Most rapidly evolving topic due to melanopic standards adoption and WELL Building Standard.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-016_CIRCADIAN_LIGHTING_WORKPLACE_PANEL.md",
+      "panel_notes": "Rapidly evolving with CIE S 026:2018 melanopic standard. Cross-references SQ-017 (CCT) and SQ-026 (daylighting mood).",
+      "source_question": "What evidence shows that dynamic or daylight-aligned lighting in workplaces improves sleep quality, alertness, or mood in non-clinical populations?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-017",
+      "question_text": "How does colour temperature (warm vs. cool white light) affect alertness, mood, or productivity in educational or office settings?",
+      "topic": "Lighting",
+      "subtopic": "Colour temperature",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["colour temperature", "color temperature", "CCT", "warm white", "cool white", "3000K", "4000K", "5000K", "6500K", "correlated colour temperature"],
+      "outcome_terms": ["alertness", "mood", "productivity", "cognitive performance", "sleepiness", "vitality", "task performance", "reaction time"],
+      "exclusion_terms": ["colour temperature photography", "warm light thermal radiation", "cool climate", "white noise", "light therapy clinical"],
+      "edge_terms": ["illuminance confound", "Kruithof curve", "time-of-day interaction", "full-spectrum daylight", "null effect CCT"],
+      "search_hints": ["colour temperature alertness office", "warm cool light mood", "CCT cognitive performance classroom"],
+      "required_evidence_terms": ["CCT", "colour temperature", "color temperature", "Kelvin", "alertness", "mood", "performance"],
+      "accept_indicators": [
+        "The study manipulates CCT (warm vs. neutral vs. cool white) and measures alertness, mood, or cognitive performance in office or educational settings.",
+        "The study uses controlled design with CCT as the independent variable and holds illuminance approximately constant.",
+        "The study measures both subjective and objective outcomes under different CCT conditions.",
+        "Systematic reviews or meta-analyses pooling CCT-performance evidence."
+      ],
+      "reject_indicators": [
+        "The paper is about colour temperature in display screens without architectural lighting context.",
+        "The paper measures only visual comfort or glare without alertness, mood, or cognitive outcomes.",
+        "The paper is about coloured (chromatic) lighting — red, blue, green ambient — rather than white-light CCT variation. These belong to SQ-023.",
+        "The paper is about colour rendering without CCT manipulation."
+      ],
+      "edge_case_indicators": [
+        "Studies confounding CCT with illuminance — cool light conditions also provide higher illuminance.",
+        "Field studies without strict experimental control but high ecological validity.",
+        "Studies finding null effects of CCT on performance — challenge the popular blue=alert narrative.",
+        "Time-of-day interaction studies suggesting CCT matters most in the afternoon."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["narrative_review", "methods"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Yvonne de Kort (Eindhoven, subjective lighting appraisals) and Karin Smolders (Eindhoven, CCT and performance). The 'cool=alert, warm=calm' narrative has weaker support than commonly assumed. Constitution prioritizes null findings and confound analysis.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-017_COLOUR_TEMPERATURE_CCT_PANEL.md",
+      "panel_notes": "Most practically accessible lighting question. Cross-references SQ-016 (circadian) — CCT and melanopic content co-vary.",
+      "source_question": "How does colour temperature (warm vs. cool white light) affect alertness, mood, or productivity in educational or office settings?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-018",
+      "question_text": "What is the optimal temperature range for cognitive performance in office settings, and how much do deviations above or below this range impair output?",
+      "topic": "Thermal Comfort",
+      "subtopic": "Cognitive performance",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["indoor air temperature", "office temperature", "thermal environment", "thermostat", "HVAC", "air conditioning", "heating"],
+      "outcome_terms": ["cognitive performance", "concentration", "memory", "reasoning", "text processing", "typing speed", "creative thinking", "productivity", "dose-response"],
+      "exclusion_terms": ["thermal comfort satisfaction only", "extreme heat exposure", "military heat stress", "athletic performance", "HVAC energy optimization", "temperature softmax"],
+      "edge_terms": ["self-reported productivity", "classroom temperature", "personal thermal control", "thermal satisfaction", "seasonal variation"],
+      "search_hints": ["temperature cognitive performance office", "thermal comfort productivity", "ASHRAE 55 cognitive impairment"],
+      "required_evidence_terms": ["temperature", "cognitive", "performance", "office", "°C", "productivity", "participants"],
+      "accept_indicators": [
+        "The study manipulates or measures indoor air temperature and assesses cognitive performance in office or office-like settings.",
+        "The study establishes a dose-response curve quantifying how much performance degrades per degree of deviation from the optimal range.",
+        "The study compares occupant performance across thermal conditions using ASHRAE 55 or ISO 7730 frameworks.",
+        "Meta-analyses pooling temperature-performance evidence."
+      ],
+      "reject_indicators": [
+        "The paper measures thermal comfort perception only without cognitive performance measurement.",
+        "The paper concerns extreme heat/cold exposure beyond indoor office range.",
+        "The paper is about HVAC system design or energy optimization without occupant performance data.",
+        "The paper is about temperature effects on physical labor rather than cognitive performance."
+      ],
+      "edge_case_indicators": [
+        "Self-reported productivity as the outcome — large N but may not track actual performance.",
+        "Multi-factor IEQ studies where temperature varies alongside air quality, noise, or lighting.",
+        "Classroom temperature studies — same cognitive mechanism, different setting.",
+        "Personal thermal control devices changing perceived comfort without changing air temperature."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["narrative_review", "methods"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Pawel Wargocki (DTU, temperature-performance dose-response) and David Wyon (pioneer). Produces directly actionable thermostat recommendations. Seppänen/Wargocki dose-response curve widely cited but based on limited evidence pool.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-018_THERMAL_COMFORT_COGNITION_PANEL.md",
+      "panel_notes": "Unique in producing directly quantified design recommendations (°C setpoints). Cross-references general IEQ literature.",
+      "source_question": "What is the optimal temperature range for cognitive performance in office settings, and how much do deviations above or below this range impair output?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-019",
+      "question_text": "What epidemiological evidence links residential proximity to urban green spaces with better mental health outcomes?",
+      "topic": "Urban Green Space",
+      "subtopic": "Mental health",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["urban green space", "park", "urban forest", "street trees", "residential greenness", "NDVI", "green area", "playground", "community garden"],
+      "outcome_terms": ["mental health", "depression", "anxiety", "psychological distress", "wellbeing", "GHQ-12", "K10", "PHQ-9", "WEMWBS"],
+      "exclusion_terms": ["green space computing memory", "green building sustainability", "urban green branding", "proximity social psychology"],
+      "edge_terms": ["physical activity mediation", "blue space", "air quality mediation", "noise mediation", "green space quality", "ecological study"],
+      "search_hints": ["urban green space mental health", "park proximity anxiety depression", "greenery residential health outcomes"],
+      "required_evidence_terms": ["green space", "mental health", "depression", "anxiety", "wellbeing", "residential", "NDVI", "epidemiological"],
+      "accept_indicators": [
+        "The study uses an epidemiological design to test the association between residential green space and mental health outcomes at the population level.",
+        "The study controls for key confounders (SES, age, education, physical activity, social capital).",
+        "Longitudinal or natural-experiment studies measuring mental health before and after green space changes.",
+        "Meta-analyses pooling epidemiological green-space-mental-health evidence."
+      ],
+      "reject_indicators": [
+        "The paper is about experimental nature exposure in small samples. These belong to SQ-001 or SQ-004.",
+        "The paper is about green space and physical health only without mental health outcomes.",
+        "The paper is about urban planning focused on ecosystem services without health outcomes.",
+        "The paper is about agricultural greenness or rural living, not urban populations."
+      ],
+      "edge_case_indicators": [
+        "Physical activity as mediator studies — tests whether the link is explained by exercise.",
+        "Blue space (coastal, rivers) studies — include if green and blue are measured simultaneously.",
+        "Air quality and noise mediation — green spaces improving mental health via pollution filtering.",
+        "Neighborhood-level studies using prescribing rates as a mental health proxy — ecological fallacy concerns."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["narrative_review"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Mathew White (Vienna/Exeter, BlueHealth) and Marissa Astell-Burt (Wollongong, longitudinal studies). Largest expected evidence base in the bank. Most studies are cross-sectional; constitution prioritizes longitudinal and natural-experiment designs.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-019_URBAN_GREEN_SPACE_MENTAL_HEALTH_PANEL.md",
+      "panel_notes": "Largest expected literature. Main challenge is causation vs. selection. Cross-references SQ-020 (children) and SQ-024 (blue space).",
+      "source_question": "What epidemiological evidence links residential proximity to urban green spaces with better mental health outcomes?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-020",
+      "question_text": "How does access to green space affect cognitive development and sustained attention in children, particularly those diagnosed with ADHD?",
+      "topic": "Urban Green Space",
+      "subtopic": "Children and ADHD",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["green space", "schoolyard", "playground", "park", "nature", "outdoor play", "forest school", "garden", "residential greenness"],
+      "outcome_terms": ["cognitive development", "sustained attention", "ADHD", "attention deficit", "executive function", "working memory", "Conners", "SNAP-IV", "CPT", "ANT"],
+      "exclusion_terms": ["ADHD pharmacotherapy", "ADHD behavioral treatment", "children physical fitness only", "teacher attention to students", "child development motor only"],
+      "edge_terms": ["academic performance", "test scores", "nature-based therapy", "forest kindergarten", "air pollution mediation", "preschool infant"],
+      "search_hints": ["green space children attention", "ADHD nature exposure", "outdoor play cognitive development"],
+      "required_evidence_terms": ["children", "green space", "attention", "ADHD", "cognitive", "development", "nature"],
+      "accept_indicators": [
+        "The study measures the relationship between green space access and cognitive development or sustained attention in children.",
+        "The study specifically tests green space effects on children with ADHD, measuring symptom severity or attention performance.",
+        "The study uses an experimental or quasi-experimental design with nature exposure as intervention and attention outcome.",
+        "Epidemiological studies linking childhood green space exposure to neurodevelopmental outcomes."
+      ],
+      "reject_indicators": [
+        "The paper is about adult attention restoration. These belong to SQ-001.",
+        "The paper is about ADHD treatment without environmental or nature component.",
+        "The paper is about children's physical activity in green spaces without cognitive outcomes.",
+        "The paper is about children's respiratory health or allergies without cognitive/attention measures."
+      ],
+      "edge_case_indicators": [
+        "Schoolyard greening intervention studies measuring academic performance.",
+        "Nature-based ADHD interventions (adventure therapy, therapeutic gardening) with additional therapeutic structure.",
+        "Air pollution mediation — green space reducing pollution affecting neurodevelopment.",
+        "Forest school and outdoor education studies — include if cognitive/attention outcomes measured."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["narrative_review", "qualitative_research"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Andrea Faber Taylor (UIUC, green space and ADHD) and Payam Dadvand (ISGlobal, BREATHE project). Combines two sub-literatures using different methods. Constitution bridges both while maintaining attention/cognition criterion.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-020_GREEN_SPACE_CHILDREN_ADHD_PANEL.md",
+      "panel_notes": "Combines green-space-cognition and nature-ADHD literatures. Cross-references SQ-019 (population-level green space).",
+      "source_question": "How does access to green space affect cognitive development and sustained attention in children, particularly those diagnosed with ADHD?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-021",
+      "question_text": "How does building spatial complexity and legibility affect wayfinding-related stress and cognitive load in hospital or campus environments?",
+      "topic": "Spatial Complexity",
+      "subtopic": "Wayfinding and stress",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["spatial complexity", "building legibility", "floor plan", "corridor", "atrium", "landmark", "signage", "wayfinding", "hospital", "campus"],
+      "outcome_terms": ["cognitive load", "wayfinding stress", "navigation performance", "wrong turns", "time to destination", "anxiety", "NASA-TLX", "pupillometry"],
+      "exclusion_terms": ["spatial complexity computational geometry", "wayfinding UX website", "cognitive load instructional design", "legibility typography"],
+      "edge_terms": ["VR wayfinding", "elderly navigation", "Space Syntax", "isovist analysis", "signage effectiveness", "airport wayfinding"],
+      "search_hints": ["wayfinding stress hospital", "building legibility cognitive load", "spatial complexity stress navigation"],
+      "required_evidence_terms": ["wayfinding", "spatial complexity", "legibility", "hospital", "campus", "cognitive load", "navigation"],
+      "accept_indicators": [
+        "The study measures cognitive load, stress, or wayfinding performance as a function of building spatial complexity or legibility.",
+        "The study is conducted in hospital, campus, airport, or complex public buildings.",
+        "The study uses Space Syntax, isovist analysis, or configurational measures to quantify spatial complexity and relates these to wayfinding outcomes.",
+        "The study tests wayfinding interventions and their effect on cognitive load or stress."
+      ],
+      "reject_indicators": [
+        "The paper is about outdoor urban wayfinding or GPS navigation without building-interior focus.",
+        "The paper is about signage as graphic design without wayfinding performance measurement.",
+        "The paper is about spatial complexity in video games without architectural application.",
+        "The paper is about spatial cognition with abstract mazes in lab without building context."
+      ],
+      "edge_case_indicators": [
+        "VR wayfinding studies replicating real buildings — allows experimental control.",
+        "Elderly or cognitively impaired populations — most vulnerable to spatial complexity.",
+        "Space Syntax studies of configuration without behavioral data — necessary but not sufficient.",
+        "Airport or retail wayfinding — include if stress or cognitive load measured."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["case_study", "methods", "theoretical"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Ruth Dalton (Northumbria, Space Syntax) and Christoph Hölscher (ETH, spatial cognition). Bridges spatial cognition research and architectural design evaluation.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-021_WAYFINDING_SPATIAL_COMPLEXITY_PANEL.md",
+      "panel_notes": "Bridge between Space Syntax and cognitive wayfinding. Distinguished from SQ-022 by focusing on navigation stress, not aesthetic preference.",
+      "source_question": "How does building spatial complexity and legibility affect wayfinding-related stress and cognitive load in hospital or campus environments?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-022",
+      "question_text": "What levels of architectural visual complexity do people prefer, and how does preference relate to environmental familiarity or cultural background?",
+      "topic": "Spatial Complexity",
+      "subtopic": "Aesthetic preference",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["architectural complexity", "facade", "ornamentation", "decoration", "building detail", "visual complexity", "edge density", "pattern complexity"],
+      "outcome_terms": ["aesthetic preference", "beauty", "liking", "visual preference", "pleasantness", "interest", "arousal"],
+      "exclusion_terms": ["complexity organizational theory", "visual complexity computer vision", "architectural complexity software", "preference economics"],
+      "edge_terms": ["Berlyne inverted-U", "optimal complexity", "familiarity", "expertise", "prototypicality", "eye-tracking architecture"],
+      "search_hints": ["optimal complexity preference architecture", "Berlyne arousal aesthetic", "architectural complexity preference cross-cultural"],
+      "required_evidence_terms": ["complexity", "preference", "architecture", "building", "Berlyne", "aesthetic", "familiarity"],
+      "accept_indicators": [
+        "The study measures human aesthetic preference for architectural scenes varying in visual complexity.",
+        "The study manipulates or measures visual complexity using quantitative methods and relates this to preference.",
+        "The study tests the Berlyne inverted-U hypothesis for architectural or built environment stimuli.",
+        "The study tests whether familiarity, expertise, or cultural background moderates the complexity-preference relationship."
+      ],
+      "reject_indicators": [
+        "The paper is about visual complexity in art or abstract patterns without architectural stimuli.",
+        "The paper is about architectural complexity as a design philosophy without empirical preference measurement.",
+        "The paper is about spatial complexity for wayfinding — these are SQ-021.",
+        "The paper is about information complexity in web design without built environment context."
+      ],
+      "edge_case_indicators": [
+        "Studies using photographs of buildings without quantified complexity — include if multiple complexity levels used.",
+        "Facade detail preference studies — ornamentation is architectural complexity.",
+        "Eye-tracking studies — include if connected to preference, not just visual search.",
+        "Studies of architectural typicality — related to but distinct from complexity."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["theoretical", "narrative_review"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Oshin Vartanian (Toronto, neural aesthetics of architecture) and Yannick Joye (ISM, processing fluency). Broadest aesthetics question. Distinguished from SQ-010 by asking about general complexity, not specifically fractal dimension.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-022_ARCHITECTURAL_COMPLEXITY_PREFERENCE_PANEL.md",
+      "panel_notes": "Distinguished from SQ-010/011 (fractal-specific) by broader architectural complexity scope. Cross-references SQ-029 (cultural variation).",
+      "source_question": "What levels of architectural visual complexity do people prefer, and how does preference relate to environmental familiarity or cultural background?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-023",
+      "question_text": "What experimental evidence supports specific colour recommendations (e.g. blue for focus, green for calm) in educational or healthcare interior design?",
+      "topic": "Color Psychology",
+      "subtopic": "Built environment",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["interior colour", "wall colour", "room colour", "ambient colour", "coloured lighting", "painted walls", "classroom colour", "hospital colour"],
+      "outcome_terms": ["cognitive performance", "focus", "calm", "arousal", "mood", "creativity", "attention", "stress", "physiological arousal"],
+      "exclusion_terms": ["green building certification", "blue light circadian", "red flag warning", "color-coded data", "warm colors lighting CCT"],
+      "edge_terms": ["brightness confound", "saturation confound", "cultural colour meaning", "null effect colour", "screen background colour"],
+      "search_hints": ["colour psychology built environment", "blue green mood productivity", "color classroom healthcare evidence"],
+      "required_evidence_terms": ["colour", "color", "blue", "green", "red", "interior", "performance", "mood", "classroom", "healthcare"],
+      "accept_indicators": [
+        "The study tests the effect of interior colour on cognitive performance, emotional state, or physiological arousal in educational or healthcare settings.",
+        "The study controls for luminance, saturation, and brightness alongside hue manipulation.",
+        "The study tests specific colour recommendations with objective outcome measures.",
+        "Systematic reviews evaluating the evidence behind colour-function claims in built environments."
+      ],
+      "reject_indicators": [
+        "The paper is about colour preference without functional outcomes.",
+        "The paper is about colour in marketing or product packaging without built environment context.",
+        "The paper is about lighting colour temperature (warm/cool white) — SQ-017.",
+        "The paper is about colour vision deficiency or colour science without psychological function."
+      ],
+      "edge_case_indicators": [
+        "Laboratory studies using coloured screen backgrounds — foundational evidence but not architectural interior.",
+        "Studies confounding hue with brightness/saturation — primary methodological weakness.",
+        "Cultural colour meaning studies — include if functional outcomes measured.",
+        "Studies finding null effects of colour on cognition — challenge popular recommendations."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["narrative_review", "theoretical"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Andrew Elliot (Rochester, color-in-context theory) and Ruth Tofle (Missouri, systematic review of colour-healthcare claims). Question most likely to reveal gap between popular belief and scientific evidence. Constitution prioritizes null findings and replication.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-023_COLOR_PSYCHOLOGY_BUILT_ENVIRONMENT_PANEL.md",
+      "panel_notes": "Replication concerns are significant. Popular claims outrun evidence. Distinguished from SQ-017 (CCT/white light) by focusing on hue.",
+      "source_question": "What experimental evidence supports specific colour recommendations (e.g. blue for focus, green for calm) in educational or healthcare interior design?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-024",
+      "question_text": "What evidence shows that water features (fountains, indoor water walls, water sounds) reduce stress or improve wellbeing in built environments?",
+      "topic": "Water Features",
+      "subtopic": "Restorative effects",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["fountain", "water feature", "water wall", "indoor water", "aquarium", "water sounds", "stream", "waterfall", "pond", "blue space"],
+      "outcome_terms": ["stress reduction", "wellbeing", "relaxation", "cortisol", "HRV", "mood", "preference", "restoration"],
+      "exclusion_terms": ["water quality drinking", "hydrotherapy", "flood risk", "marine biology", "water feature machine learning"],
+      "edge_terms": ["aquarium clinical", "nature soundscape water", "blue space epidemiology", "virtual water", "noise masking fountain"],
+      "search_hints": ["blue space wellbeing", "water feature stress fountain", "aquatic environment restoration indoor"],
+      "required_evidence_terms": ["water", "fountain", "aquarium", "blue space", "stress", "wellbeing", "restoration"],
+      "accept_indicators": [
+        "The study tests whether exposure to water features reduces stress or improves wellbeing in a built environment context.",
+        "The study compares a water-feature condition to a non-water control using stress, mood, or physiological outcomes.",
+        "The study examines water features in interior design contexts — lobbies, atriums, offices.",
+        "Epidemiological studies of blue space and mental health at the population level."
+      ],
+      "reject_indicators": [
+        "The paper is about water quality, drinking water, or water infrastructure.",
+        "The paper is about hydrotherapy or swimming for rehabilitation without environmental stress outcomes.",
+        "The paper is about flood risk or water-related natural hazards.",
+        "The paper is about marine biology without human psychological outcomes."
+      ],
+      "edge_case_indicators": [
+        "Aquarium studies in clinical settings — clinical population but generalizable mechanism.",
+        "Nature soundscape studies where water sounds are one of several stimuli — include if water effects reported separately.",
+        "Blue space epidemiology (coastal proximity) — outdoor/landscape scale, not indoor water features.",
+        "Water feature noise masking — include if stress or wellbeing measured alongside acoustic metrics."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["narrative_review", "case_study"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Mathew White (BlueHealth) and Deborah Cracknell (Exeter, aquarium stress). Blue-space complement to green-space literature. Evidence base smaller than green space; much comes from BlueHealth group.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-024_WATER_FEATURES_STRESS_PANEL.md",
+      "panel_notes": "Blue-space complement to SQ-019 (green space). Cross-references SQ-014 (nature sounds including water).",
+      "source_question": "What evidence shows that water features (fountains, indoor water walls, water sounds) reduce stress or improve wellbeing in built environments?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-025",
+      "question_text": "How well do post-occupancy evaluation (POE) studies control for self-selection bias and social desirability when measuring wellbeing in biophilic buildings?",
+      "topic": "Post-Occupancy Evaluation",
+      "subtopic": "Method quality",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["biophilic building", "green building", "WELL certified", "biophilic design", "post-occupancy", "POE", "building evaluation"],
+      "outcome_terms": ["wellbeing", "satisfaction", "self-selection bias", "social desirability", "response bias", "demand characteristics", "Hawthorne effect"],
+      "exclusion_terms": ["post-occupancy hospital clinical", "selection bias genetics", "social desirability general survey", "biophilic conservation", "building performance energy"],
+      "edge_terms": ["IEQ multi-factor", "LEED WELL BREEAM", "Hawthorne novelty", "pre-post renovation", "matched comparison building"],
+      "search_hints": ["post-occupancy evaluation methodology", "biophilic building POE", "self-selection wellbeing workspace bias"],
+      "required_evidence_terms": ["POE", "post-occupancy", "biophilic", "self-selection", "social desirability", "wellbeing", "building"],
+      "accept_indicators": [
+        "The study is a POE of a biophilic building that explicitly discusses self-selection bias, social desirability, or response bias.",
+        "The study compares POE results from biophilic buildings to matched comparison buildings, controlling for occupant differences.",
+        "Methodological papers evaluating the quality of the POE evidence base for biophilic design claims.",
+        "Natural experiment or relocation studies measuring the same occupants before and after moving to a biophilic building."
+      ],
+      "reject_indicators": [
+        "The paper is about POE for energy or HVAC performance without occupant wellbeing.",
+        "The paper is about biophilic design advocacy or case studies without formal POE data.",
+        "The paper is about workplace satisfaction in general without biophilic design features.",
+        "The paper is about survey methodology in psychology without built environment application."
+      ],
+      "edge_case_indicators": [
+        "POE studies of biophilic buildings that do NOT discuss self-selection — relevant as evidence of methodological gaps.",
+        "IEQ multi-factor studies — include if biophilic features identifiable in results.",
+        "Green building certification studies (LEED, WELL) — edge case if biophilic features not isolated.",
+        "Pre-/post-renovation without control group — most common design, to be included with limitations."
+      ],
+      "allowed_article_types": ["empirical_research", "systematic_review", "meta_analysis", "methods"],
+      "marginal_article_types": ["narrative_review", "commentary"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Adrian Leaman (BUS methodology pioneer) and Gail Brager (CBE). Unique as primarily a methodological quality question. Includes both high-quality POEs (addressing bias) and low-quality ones (illustrating the problem).",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-025_POE_BIOPHILIC_METHODOLOGY_PANEL.md",
+      "panel_notes": "Primarily methodological question. Cross-references SQ-008 (biophilic design in offices) for substantive claims.",
+      "source_question": "How well do post-occupancy evaluation (POE) studies control for self-selection bias and social desirability when measuring wellbeing in biophilic buildings?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-026",
+      "question_text": "What evidence shows that daylighting strategies in buildings reduce seasonal mood changes or depressive symptoms beyond clinical SAD populations?",
+      "topic": "Daylighting",
+      "subtopic": "Seasonal and mood effects",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["daylighting", "daylight", "window", "skylight", "atrium", "light shelf", "glazing", "window-to-wall ratio", "solar access"],
+      "outcome_terms": ["seasonal mood", "depression", "depressive symptoms", "psychological wellbeing", "seasonal affective", "winter mood", "BDI", "CES-D", "PHQ-9"],
+      "exclusion_terms": ["light therapy SAD clinical", "daylighting energy savings", "glare management only", "daylight saving time", "outdoor light exposure only"],
+      "edge_terms": ["hospital daylight depression", "school daylight mood", "dawn simulation", "daylight autonomy without mood", "latitude moderation"],
+      "search_hints": ["daylighting seasonal depression", "light therapy SAD generalisation", "window daylighting mood nonclinical"],
+      "required_evidence_terms": ["daylight", "window", "seasonal", "mood", "depression", "building", "non-clinical"],
+      "accept_indicators": [
+        "The study tests whether daylighting strategies in buildings reduce seasonal mood variation or depressive symptoms in non-clinical populations.",
+        "The study compares occupants of well-daylit vs. poorly daylit buildings on mood or depressive symptom measures.",
+        "The study measures seasonal variation in mood as a function of building daylighting quality.",
+        "Large-scale epidemiological studies linking building daylight exposure to mental health indicators."
+      ],
+      "reject_indicators": [
+        "The paper is about clinical light therapy for diagnosed SAD using light boxes.",
+        "The paper is about daylighting for energy savings or visual comfort without mood outcomes.",
+        "The paper is about outdoor light exposure without building daylighting as the variable.",
+        "The paper is about circadian lighting with tunable LEDs — SQ-016."
+      ],
+      "edge_case_indicators": [
+        "Hospital studies measuring depression in inpatients — clinical population but architectural intervention.",
+        "School classroom daylighting and student mood/behavior.",
+        "Dawn simulation in bedrooms — light intervention but not architectural daylighting.",
+        "Studies using daylight autonomy metrics without mood outcomes."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["narrative_review", "case_study"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Lisa Heschong (daylighting pioneer) and Anna Wirz-Justice (Basel, chronobiology). Bridges clinical SAD literature and architectural daylighting — two communities that rarely cite each other.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-026_DAYLIGHTING_SEASONAL_MOOD_PANEL.md",
+      "panel_notes": "Bridges clinical and architectural literatures. Cross-references SQ-016 (circadian lighting) and SQ-017 (CCT).",
+      "source_question": "What evidence shows that daylighting strategies in buildings reduce seasonal mood changes or depressive symptoms beyond clinical SAD populations?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-027",
+      "question_text": "Do indoor plants measurably improve air quality or cognitive performance, or do effects stem primarily from visual and psychological pathways?",
+      "topic": "Indoor Air Quality",
+      "subtopic": "Plants and cognition",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["indoor plants", "potted plants", "houseplants", "living wall", "green wall", "office plants", "interior vegetation"],
+      "outcome_terms": ["air quality", "VOC removal", "cognitive performance", "stress", "wellbeing", "CO2", "mood", "productivity"],
+      "exclusion_terms": ["plant manufacturing", "IEQ HVAC only", "green building sustainability", "outdoor urban greening", "agricultural greenhouse"],
+      "edge_terms": ["artificial plant comparison", "NASA clean air study", "phytoremediation critique", "plant care activity", "microbial diversity"],
+      "search_hints": ["indoor plants air quality evidence", "houseplants cognition", "plant volatile organic compounds wellbeing"],
+      "required_evidence_terms": ["indoor plants", "air quality", "VOC", "cognitive", "performance", "visual", "psychological"],
+      "accept_indicators": [
+        "The study tests the effect of indoor plants on air quality and/or on cognitive performance, stress, or wellbeing.",
+        "The study attempts to separate the visual/psychological pathway from the air-quality pathway.",
+        "The study compares rooms with live plants to rooms with no plants, artificial plants, or photographs of plants.",
+        "Meta-analyses evaluating the relative contribution of air-quality vs. psychological pathways."
+      ],
+      "reject_indicators": [
+        "The paper is about outdoor urban greening or street trees.",
+        "The paper is about agricultural greenhouses or horticultural production.",
+        "The paper is about phytoremediation of contaminated soil or water.",
+        "The paper is about gardening therapy where the activity is the intervention."
+      ],
+      "edge_case_indicators": [
+        "NASA clean air study (1989) and its recent critiques — central evidence dispute.",
+        "Green wall/living wall studies — design-relevant scale of indoor vegetation.",
+        "Artificial plant studies — key experiment for separating pathways.",
+        "Microbial diversity arguments — emerging third pathway beyond air filtering and visual."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["narrative_review", "methods", "commentary"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Tina Bringslimark (Norway, plant meta-analysis) and Michael Waring (Drexel, indoor air quality reality check). Inclusion of Cummings & Waring critique ensures the air-quality pathway is rigorously evaluated.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-027_INDOOR_PLANTS_AIR_VS_VISUAL_PANEL.md",
+      "panel_notes": "Directly pits two competing explanations. NASA claim now largely debunked at practical plant densities. Cross-references SQ-008 (biophilic design).",
+      "source_question": "Do indoor plants measurably improve air quality or cognitive performance, or do effects stem primarily from visual and psychological pathways?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-028",
+      "question_text": "Are Attention Restoration Theory, Stress Recovery Theory, and the Biophilia Hypothesis three distinct theories or do they converge on the same underlying mechanism?",
+      "topic": "Theory Comparison",
+      "subtopic": "ART + SRT + Biophilia",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["natural environment", "nature", "restorative environment", "landscape", "green space"],
+      "outcome_terms": ["ART", "SRT", "biophilia", "attention restoration", "stress recovery", "innate preference", "unified mechanism", "convergent", "complementary"],
+      "exclusion_terms": ["dual-process Kahneman", "System 1 System 2", "attention single-theory", "biophilia conservation only"],
+      "edge_terms": ["processing fluency", "predictive coding", "pathway model", "Markevych framework", "unitary restoration"],
+      "search_hints": ["ART SRT biophilia unified", "nature theories comparison mechanism", "restorative environment theories synthesis"],
+      "required_evidence_terms": ["ART", "SRT", "biophilia", "Kaplan", "Ulrich", "Wilson", "comparison", "mechanism"],
+      "accept_indicators": [
+        "The paper explicitly compares, contrasts, or attempts to integrate ART, SRT, and/or the biophilia hypothesis.",
+        "The paper tests predictions from two or more theories in the same study to determine distinguishability.",
+        "The paper proposes a unifying framework or common mechanism subsuming the three theories.",
+        "Systematic reviews examining whether evidence favors one theory or shows the theories are interchangeable."
+      ],
+      "reject_indicators": [
+        "The paper tests only one theory without comparing to others. These belong to respective SQ questions.",
+        "The paper is about entirely different theoretical traditions without ART/SRT/biophilia connection.",
+        "The paper is about biophilic design practice invoking theories as background without analyzing their relationship.",
+        "General nature-health reviews citing all three as interchangeable labels without conceptual analysis."
+      ],
+      "edge_case_indicators": [
+        "Processing fluency as alternative unifying account — competing explanation.",
+        "Pathway models (Markevych et al. 2017) integrating restoration, activity, and social pathways.",
+        "Studies measuring both attention and stress outcomes without framing as theory test — cross-ref SQ-006.",
+        "Papers arguing ART and SRT are not separable — challenge the question's premise."
+      ],
+      "allowed_article_types": ["theoretical", "narrative_review", "systematic_review", "empirical_research", "meta_analysis"],
+      "marginal_article_types": ["commentary"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Terry Hartig (Uppsala, ART testing) and Agnes van den Berg (Wageningen, SRT/ART critical evaluation). Most theoretical question in the bank. Requires engagement with philosophy of science. Panel includes representatives of different theoretical camps.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-028_THEORY_COMPARISON_ART_SRT_BIOPHILIA_PANEL.md",
+      "panel_notes": "Meta-theoretical question. Cross-references SQ-001 (ART), SQ-004 (SRT), SQ-006 (ART vs SRT), SQ-007 (biophilia).",
+      "source_question": "Are Attention Restoration Theory, Stress Recovery Theory, and the Biophilia Hypothesis three distinct theories or do they converge on the same underlying mechanism?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-029",
+      "question_text": "How does cultural background shape preferences for natural versus built environments, and what are the implications for universal design guidelines?",
+      "topic": "Cultural Variation",
+      "subtopic": "Nature preference",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["natural environment", "built environment", "landscape", "urban", "nature", "garden", "park"],
+      "outcome_terms": ["preference", "cross-cultural", "cultural variation", "universal", "innate", "learned", "acculturation", "nature preference"],
+      "exclusion_terms": ["cultural background microbiology", "natural preference economics", "built environment civil engineering", "universal design accessibility"],
+      "edge_terms": ["urban density preference", "immigrant acculturation", "religious landscape meaning", "SES confound", "children cross-cultural"],
+      "search_hints": ["cross-cultural nature preference", "biophilic design culture", "cultural variation restorative environment"],
+      "required_evidence_terms": ["cultural", "cross-cultural", "preference", "nature", "built", "universal", "landscape"],
+      "accept_indicators": [
+        "The study compares nature vs. built environment preferences across two or more cultural or national groups.",
+        "The study tests whether nature preference findings from Western populations replicate in non-Western populations.",
+        "The study tests whether restorative effects of nature vary by cultural background or nature-exposure history.",
+        "Studies of culturally specific nature practices and their psychological implications."
+      ],
+      "reject_indicators": [
+        "The paper is about cultural variation in topics unrelated to environmental preference.",
+        "The paper is about landscape ecology across countries without psychological preference data.",
+        "The paper is about cross-cultural psychology without environmental or nature stimuli.",
+        "The paper is about culturally sensitive design without empirical preference testing."
+      ],
+      "edge_case_indicators": [
+        "Urban density preference studies — include if nature elements compared across city forms.",
+        "Immigrant acculturation studies — directly tests innate vs. learned preference.",
+        "Religious/spiritual landscape meaning — include if preference or wellbeing measured.",
+        "Children's nature preferences across cultures — useful for innate vs. learned (SQ-007 cross-ref)."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review"],
+      "marginal_article_types": ["qualitative_research", "narrative_review", "theoretical"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Rachel Kaplan (Michigan, environmental preference) and Yun Hye Hwang (NUS, Asian urban nature). Broadest cross-cultural question. Main risk: few studies achieve genuine cross-cultural comparison using same methods.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-029_CULTURAL_VARIATION_NATURE_PREFERENCE_PANEL.md",
+      "panel_notes": "Cross-references SQ-007 (biophilia innate vs. learned) and SQ-022 (complexity preference). Underrepresented regions are highest-value evidence.",
+      "source_question": "How does cultural background shape preferences for natural versus built environments, and what are the implications for universal design guidelines?",
+      "source_question_bank": "curated_30"
+    },
+    {
+      "question_id": "SQ-030",
+      "question_text": "How well have the foundational environmental psychology findings of Ulrich (1984) and Kaplan & Kaplan (1989) replicated with larger or more diverse samples?",
+      "topic": "Replication Crisis",
+      "subtopic": "Environmental psychology",
+      "panel_status": "llm_panel_drafted",
+      "constitution_version": "v1",
+      "environment_terms": ["natural environment", "nature", "window view", "restorative environment", "green space"],
+      "outcome_terms": ["replication", "reproducibility", "effect size", "publication bias", "sample size", "power analysis", "pre-registration", "open science"],
+      "exclusion_terms": ["replication DNA molecular", "foundation architecture structural", "environment computing software", "recovery data science"],
+      "edge_terms": ["large-N epidemiological", "non-WEIRD populations", "effect size shrinkage", "registered report", "methodological critique"],
+      "search_hints": ["Ulrich replication window view", "Kaplan ART replication", "environmental psychology replication crisis"],
+      "required_evidence_terms": ["replication", "Ulrich", "Kaplan", "sample", "effect size", "environmental psychology", "robustness"],
+      "accept_indicators": [
+        "The study is an explicit replication of Ulrich (1984) or Kaplan & Kaplan (1989) with a new, larger, or more diverse sample.",
+        "The study tests the same core predictions with substantially larger N than the originals.",
+        "Meta-analyses estimating overall effect sizes for the founding claims, assessing publication bias and heterogeneity.",
+        "Papers explicitly addressing replication or robustness of foundational claims as a meta-scientific question."
+      ],
+      "reject_indicators": [
+        "The paper is about the replication crisis in other fields without environmental psychology application.",
+        "The paper cites Ulrich or Kaplan as background for a different question.",
+        "The paper is about nature-health associations without addressing replication or robustness.",
+        "The paper discusses environmental psychology theory without replication data."
+      ],
+      "edge_case_indicators": [
+        "Large-N epidemiological studies providing indirect replication — different paradigm but large-sample convergent evidence.",
+        "Studies in non-Western populations — conceptual replications with diverse populations.",
+        "Studies finding smaller effect sizes than originally reported — effect-size shrinkage is a key replication metric.",
+        "Pre-registered or registered-report nature studies — improved methodology."
+      ],
+      "allowed_article_types": ["empirical_research", "meta_analysis", "systematic_review", "commentary"],
+      "marginal_article_types": ["narrative_review", "theoretical"],
+      "rejected_article_types": ["book_review", "editorial", "computational_simulation"],
+      "llm_panel_summary": "Panel of 5 including Terry Hartig (Uppsala, large-scale ART testing) and Brian Nosek (UVA, Reproducibility Project). Meta-scientific capstone. Asks whether the field's foundational evidence is trustworthy. Failed replications and publication bias evidence are highest-value findings.",
+      "llm_prompt_version": "question-constitution-panel-v2-curated30",
+      "panel_markdown_path": "docs/panels/SQ-030_REPLICATION_CRISIS_ENVPSYCH_PANEL.md",
+      "panel_notes": "Hardest question in the bank. Asks students to evaluate the evidence the other 29 questions presuppose. Cross-references SQ-012 (Ulrich 1984) and SQ-001 (ART).",
+      "source_question": "How well have the foundational environmental psychology findings of Ulrich (1984) and Kaplan & Kaplan (1989) replicated with larger or more diverse samples?",
+      "source_question_bank": "curated_30"
+    }
+  ]
+}

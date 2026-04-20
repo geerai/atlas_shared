@@ -189,14 +189,35 @@ class ArticleCandidate:
 
     @classmethod
     def from_mapping(cls, obj: Mapping[str, Any]) -> "ArticleCandidate":
+        body_chunks = [
+            str(obj.get("body_text") or obj.get("full_text") or ""),
+            str(obj.get("first_page_text") or obj.get("page_1_text") or ""),
+            str(obj.get("methods_surface_summary") or ""),
+        ]
+        summary = obj.get("science_writer_summary")
+        if isinstance(summary, Mapping):
+            sections = summary.get("sections")
+            if isinstance(sections, Mapping):
+                body_chunks.extend(str(value or "") for value in sections.values())
+        elif summary:
+            body_chunks.append(str(summary))
+        for key in ("independent_variables", "dependent_variables", "iv_raw", "dv_raw", "iv_mapped", "dv_mapped"):
+            body_chunks.append(str(obj.get(key) or ""))
+        inventory = obj.get("measurement_inventory")
+        if isinstance(inventory, Sequence) and not isinstance(inventory, (str, bytes)):
+            for item in inventory:
+                if not isinstance(item, Mapping):
+                    continue
+                for key in ("outcome", "measure_name", "instrument_name", "instrument_type", "sensor_name", "sensor_type"):
+                    body_chunks.append(str(item.get(key) or ""))
         return cls(
             paper_id=str(obj.get("paper_id") or obj.get("id") or ""),
             title=str(obj.get("title") or ""),
             abstract=str(obj.get("abstract") or ""),
             article_type=str(obj.get("article_type") or ""),
             year=obj.get("year") if isinstance(obj.get("year"), int) else None,
-            keywords=tuple(_split_terms(obj.get("keywords"))),
-            body_text=str(obj.get("body_text") or obj.get("full_text") or ""),
+            keywords=tuple(_split_terms(obj.get("keywords"))) + tuple(_split_terms(obj.get("topic_hints"))),
+            body_text="\n".join(chunk for chunk in body_chunks if chunk.strip()),
         )
 
 
@@ -285,7 +306,7 @@ class QuestionArticleRelevanceFilter:
             self._record_article_type(article, decision)
             return decision
         raw = self.classifier.classify(
-            abstract=article.abstract,
+            abstract=article.abstract or article.body_text[:3000],
             title=article.title,
             keywords=list(article.keywords),
         )

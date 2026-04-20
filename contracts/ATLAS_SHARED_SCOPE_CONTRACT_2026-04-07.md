@@ -26,6 +26,9 @@ Its task is to hold reusable contracts and portable logic used by more than one 
 ## Initial Export
 
 - `atlas_shared.relevance`
+- `atlas_shared.intake`
+- `atlas_shared.topic_bank`
+- `atlas_shared.classifier_system`
 
 ## Governing Principle
 
