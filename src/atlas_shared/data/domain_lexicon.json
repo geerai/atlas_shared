@@ -1,0 +1,48 @@
+{
+  "domain_signal_terms": [
+    "architecture",
+    "architectural",
+    "built environment",
+    "building",
+    "indoor",
+    "office",
+    "workplace",
+    "hospital",
+    "classroom",
+    "school",
+    "urban",
+    "wayfinding",
+    "spatial",
+    "lighting",
+    "daylight",
+    "thermal comfort",
+    "acoustic",
+    "soundscape",
+    "noise",
+    "biophilic",
+    "nature view",
+    "green space",
+    "restorative",
+    "environmental psychology",
+    "occupant",
+    "preference",
+    "stress",
+    "attention",
+    "cognition",
+    "mood"
+  ],
+  "clear_false_positive_terms": [
+    "particle physics",
+    "quantum chromodynamics",
+    "plasma turbulence",
+    "semiconductor wafer",
+    "galactic"
+  ],
+  "soft_false_positive_terms": [
+    "enzyme",
+    "protein folding",
+    "gene expression",
+    "molecular dynamics",
+    "astrophysics"
+  ]
+}

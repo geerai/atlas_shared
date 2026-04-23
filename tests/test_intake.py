@@ -205,3 +205,28 @@ def test_intake_no_false_positive_terms_passes_without_keyword_rejection() -> No
 
     assert result.intake_decision == "accept_candidate"
     assert result.routing_target == "article_eater"
+
+
+def test_intake_lexicon_override_changes_gate_behaviour() -> None:
+    gate = PreExtractionIntakeGate(
+        _constitutions(),
+        lexicon_override={
+            "domain_signal_terms": ("lighting",),
+            "clear_false_positive_terms": (),
+            "soft_false_positive_terms": ("daylight",),
+        },
+    )
+    result = gate.assess(
+        {
+            "paper_id": "PDF-2009",
+            "title": "Daylight improves alertness in office work",
+            "abstract": (
+                "An experiment with 44 participants found that daylight improved "
+                "alertness and reduced fatigue in workplaces (p < .05)."
+            ),
+        }
+    )
+
+    assert result.intake_decision == "manual_review"
+    assert result.routing_target == "manual_review"
+    assert result.needs_manual_review is True

@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
+from importlib import resources
+import json
 import re
 from typing import Any, Literal, Mapping, Sequence
 
@@ -41,56 +43,26 @@ ProcessingStage = Literal[
 ]
 
 
-DOMAIN_SIGNAL_TERMS: tuple[str, ...] = (
-    "architecture",
-    "architectural",
-    "built environment",
-    "building",
-    "indoor",
-    "office",
-    "workplace",
-    "hospital",
-    "classroom",
-    "school",
-    "urban",
-    "wayfinding",
-    "spatial",
-    "lighting",
-    "daylight",
-    "thermal comfort",
-    "acoustic",
-    "soundscape",
-    "noise",
-    "biophilic",
-    "nature view",
-    "green space",
-    "restorative",
-    "environmental psychology",
-    "occupant",
-    "preference",
-    "stress",
-    "attention",
-    "cognition",
-    "mood",
-)
+def _load_domain_lexicon() -> dict[str, tuple[str, ...]]:
+    package_root = resources.files("atlas_shared")
+    text = (package_root / "data" / "domain_lexicon.json").read_text(encoding="utf-8")
+    payload = json.loads(text)
+    if not isinstance(payload, Mapping):
+        raise ValueError("domain_lexicon.json must contain a JSON object")
+    loaded: dict[str, tuple[str, ...]] = {}
+    for key in ("domain_signal_terms", "clear_false_positive_terms", "soft_false_positive_terms"):
+        value = payload.get(key, ())
+        if isinstance(value, Sequence) and not isinstance(value, (str, bytes)):
+            loaded[key] = tuple(str(item).strip() for item in value if str(item).strip())
+        else:
+            loaded[key] = ()
+    return loaded
 
 
-CLEAR_FALSE_POSITIVE_TERMS: tuple[str, ...] = (
-    "particle physics",
-    "quantum chromodynamics",
-    "plasma turbulence",
-    "semiconductor wafer",
-    "galactic",
-)
-
-
-SOFT_FALSE_POSITIVE_TERMS: tuple[str, ...] = (
-    "enzyme",
-    "protein folding",
-    "gene expression",
-    "molecular dynamics",
-    "astrophysics",
-)
+_DOMAIN_LEXICON = _load_domain_lexicon()
+DOMAIN_SIGNAL_TERMS: tuple[str, ...] = _DOMAIN_LEXICON["domain_signal_terms"]
+CLEAR_FALSE_POSITIVE_TERMS: tuple[str, ...] = _DOMAIN_LEXICON["clear_false_positive_terms"]
+SOFT_FALSE_POSITIVE_TERMS: tuple[str, ...] = _DOMAIN_LEXICON["soft_false_positive_terms"]
 
 
 def _split_terms(value: Any) -> tuple[str, ...]:
@@ -357,8 +329,17 @@ class PreExtractionIntakeGate:
         classifier: SupportsArticleTypeClassification | None = None,
         adjudicator: SupportsRelevanceAdjudication | None = None,
         adjudication_policy: Literal["never", "borderline_only", "always"] = "borderline_only",
+        lexicon_override: Mapping[str, Sequence[str]] | None = None,
     ) -> None:
         self.constitutions = tuple(constitutions)
+        override = lexicon_override or {}
+        self.domain_signal_terms = tuple(override.get("domain_signal_terms", DOMAIN_SIGNAL_TERMS))
+        self.clear_false_positive_terms = tuple(
+            override.get("clear_false_positive_terms", CLEAR_FALSE_POSITIVE_TERMS)
+        )
+        self.soft_false_positive_terms = tuple(
+            override.get("soft_false_positive_terms", SOFT_FALSE_POSITIVE_TERMS)
+        )
         self.filter = QuestionArticleRelevanceFilter(
             classifier=classifier or HeuristicArticleTypeClassifier(),
             adjudicator=adjudicator,
@@ -384,9 +365,9 @@ class PreExtractionIntakeGate:
         article = intake.to_article_candidate()
         article_type = self.filter.classify_article_type(article)
         text = intake.available_text
-        domain_hits = _hits(text, DOMAIN_SIGNAL_TERMS)
-        clear_false_positive_hits = _hits(text, CLEAR_FALSE_POSITIVE_TERMS)
-        soft_false_positive_hits = _hits(text, SOFT_FALSE_POSITIVE_TERMS)
+        domain_hits = _hits(text, self.domain_signal_terms)
+        clear_false_positive_hits = _hits(text, self.clear_false_positive_terms)
+        soft_false_positive_hits = _hits(text, self.soft_false_positive_terms)
 
         if not intake.has_substantive_text:
             return self._build_result(
