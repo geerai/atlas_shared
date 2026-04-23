@@ -3,6 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Any, Iterable, Mapping, Sequence
 
+from ._util import _assessment_weight
 from .relevance import (
     ArticleCandidate,
     QuestionArticleRelevanceFilter,
@@ -12,14 +13,6 @@ from .relevance import (
     SupportsRelevanceAdjudication,
 )
 from .registry_sink import SupportsClassificationRegistry
-
-
-def _assessment_weight(item: RelevanceAssessment) -> float:
-    if item.verdict == "accept":
-        return 1.0 * item.confidence
-    if item.verdict == "edge_case":
-        return 0.45 * item.confidence
-    return 0.0
 
 
 @dataclass(frozen=True)

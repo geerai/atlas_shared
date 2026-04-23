@@ -6,6 +6,7 @@ import re
 import subprocess
 from typing import Any, Literal, Mapping, Protocol, Sequence
 
+from ._util import _assessment_weight, _split_terms
 from .article_types import ArticleTypeDecision, HeuristicArticleTypeClassifier
 from .bundle_router import BundleRoutingResult, TopicBundleCandidate
 from .intake import PreExtractionIntakeGate, PreExtractionIntakeResult
@@ -52,18 +53,6 @@ HEADING_KEYWORDS: tuple[str, ...] = (
     "conclusions",
     "references",
 )
-
-
-def _split_terms(value: Any) -> tuple[str, ...]:
-    if value is None:
-        return ()
-    if isinstance(value, str):
-        return tuple(item.strip() for item in value.split(",") if item.strip())
-    if isinstance(value, Sequence) and not isinstance(value, (str, bytes)):
-        return tuple(str(item).strip() for item in value if str(item).strip())
-    return ()
-
-
 def _summary_to_text(value: Any) -> str:
     if isinstance(value, str):
         return value
@@ -87,16 +76,6 @@ def _unique_strings(values: Sequence[str]) -> tuple[str, ...]:
         ordered.append(cleaned)
         seen.add(cleaned)
     return tuple(ordered)
-
-
-def _assessment_weight(item: RelevanceAssessment) -> float:
-    if item.verdict == "accept":
-        return 1.0 * item.confidence
-    if item.verdict == "edge_case":
-        return 0.45 * item.confidence
-    return 0.0
-
-
 def _verdict_rank(verdict: str) -> int:
     order = {"reject": 0, "edge_case": 1, "accept": 2}
     return order.get(verdict, -1)

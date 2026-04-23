@@ -6,6 +6,7 @@ import json
 import re
 from typing import Any, Literal, Mapping, Sequence
 
+from ._util import _split_terms
 from .article_types import ArticleTypeDecision, HeuristicArticleTypeClassifier
 from .bundle_router import BundleRoutingResult, QuestionBundleRouter
 from .registry_sink import RegistryFact
@@ -63,18 +64,6 @@ _DOMAIN_LEXICON = _load_domain_lexicon()
 DOMAIN_SIGNAL_TERMS: tuple[str, ...] = _DOMAIN_LEXICON["domain_signal_terms"]
 CLEAR_FALSE_POSITIVE_TERMS: tuple[str, ...] = _DOMAIN_LEXICON["clear_false_positive_terms"]
 SOFT_FALSE_POSITIVE_TERMS: tuple[str, ...] = _DOMAIN_LEXICON["soft_false_positive_terms"]
-
-
-def _split_terms(value: Any) -> tuple[str, ...]:
-    if value is None:
-        return ()
-    if isinstance(value, str):
-        return tuple(item.strip() for item in value.split(",") if item.strip())
-    if isinstance(value, Sequence):
-        return tuple(str(item).strip() for item in value if str(item).strip())
-    return ()
-
-
 def _norm_text(*pieces: str) -> str:
     return "\n".join(piece for piece in pieces if piece).lower()
 

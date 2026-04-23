@@ -6,6 +6,7 @@ import json
 import re
 from typing import Any, Iterable, Literal, Mapping, Protocol, Sequence
 
+from ._util import _split_terms
 from .article_types import ArticleTypeDecision, HeuristicArticleTypeClassifier
 from .registry_sink import SupportsClassificationRegistry
 
@@ -75,16 +76,6 @@ def _find_hits(text: str, phrases: Sequence[str]) -> list[str]:
             hits.append(norm)
             seen.add(norm)
     return hits
-
-
-def _split_terms(value: Any) -> list[str]:
-    if value is None:
-        return []
-    if isinstance(value, str):
-        return [item.strip() for item in value.split(",") if item.strip()]
-    if isinstance(value, Sequence):
-        return [str(item).strip() for item in value if str(item).strip()]
-    return []
 
 
 def _normalize_classifier_output(result: Any) -> ArticleTypeDecision:
