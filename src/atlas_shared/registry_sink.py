@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import TYPE_CHECKING, Any, Mapping, Protocol
+from typing import TYPE_CHECKING, Any, Literal, Mapping, Protocol
 
 if TYPE_CHECKING:
     from .article_types import ArticleTypeDecision
@@ -9,12 +9,18 @@ if TYPE_CHECKING:
     from .relevance import ArticleCandidate, QuestionConstitution, RelevanceAssessment
 
 
+SchemaVersion = Literal[
+    "v1",
+    "pre_extraction_intake_v1",
+]
+
+
 @dataclass(frozen=True)
 class RegistryFact:
     dimension: str
     label: str
     confidence: float | None = None
-    schema_version: str = "v1"
+    schema_version: SchemaVersion = "v1"
     paper_id: str | None = None
     question_id: str | None = None
     bundle_id: str | None = None
