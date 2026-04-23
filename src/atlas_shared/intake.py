@@ -622,6 +622,7 @@ class PreExtractionIntakeGate:
                 label=article_type.value,
                 confidence=round(article_type.confidence, 4),
                 schema_version="pre_extraction_intake_v1",
+                paper_id=intake.paper_id,
                 details_json={
                     "paper_id": intake.paper_id,
                     "source": article_type.source,
@@ -635,6 +636,7 @@ class PreExtractionIntakeGate:
                 label=decision,
                 confidence=round(confidence, 4),
                 schema_version="pre_extraction_intake_v1",
+                paper_id=intake.paper_id,
                 bundle_id=primary_bundle_id,
                 topic_label=primary_topic,
                 edge_case_kind=edge_case_kind,
@@ -661,6 +663,7 @@ class PreExtractionIntakeGate:
                     label=primary_topic,
                     confidence=round(confidence, 4),
                     schema_version="pre_extraction_intake_v1",
+                    paper_id=intake.paper_id,
                     bundle_id=primary_bundle_id,
                     topic_label=primary_topic,
                     details_json={
@@ -677,6 +680,7 @@ class PreExtractionIntakeGate:
                     label="new_topic_candidate" if new_topic_candidate else "topic_expansion_candidate",
                     confidence=round(max(novelty_signal, confidence), 4),
                     schema_version="pre_extraction_intake_v1",
+                    paper_id=intake.paper_id,
                     edge_case_kind=edge_case_kind,
                     novelty_signal=round(novelty_signal, 4),
                     details_json={

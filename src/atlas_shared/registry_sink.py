@@ -15,6 +15,7 @@ class RegistryFact:
     label: str
     confidence: float | None = None
     schema_version: str = "v1"
+    paper_id: str | None = None
     question_id: str | None = None
     bundle_id: str | None = None
     topic_label: str | None = None

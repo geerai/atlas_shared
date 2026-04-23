@@ -50,6 +50,7 @@ def test_intake_accepts_clear_topic_match_and_emits_facts() -> None:
         "pre_extraction_intake_decision",
         "topic_routing_preliminary",
     }
+    assert all(fact.paper_id == fact.details_json["paper_id"] for fact in result.facts)
 
 
 def test_intake_preserves_plausible_new_topic_instead_of_rejecting() -> None:
