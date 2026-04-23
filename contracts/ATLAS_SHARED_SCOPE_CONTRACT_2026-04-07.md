@@ -34,3 +34,13 @@ Its task is to hold reusable contracts and portable logic used by more than one 
 
 If a module cannot be imported and tested without one particular repo's runtime,
 it does not belong here.
+
+## Canonical identity field
+
+The canonical article-identity field in `atlas_shared` is `paper_id`.
+All shared dataclasses, routing results, intake records, and registry facts
+use `paper_id` at the package boundary.
+
+Consumer repos may alias this to `article_id` in their own APIs or UI copy.
+But when crossing the `atlas_shared` boundary, the canonical name is
+`paper_id`.
