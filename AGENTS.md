@@ -14,11 +14,13 @@ Canonical shared modules:
 - `atlas_shared.relevance.QuestionArticleRelevanceFilter`
 - `atlas_shared.bundle_router.QuestionBundleRouter`
 - `atlas_shared.article_types.HeuristicArticleTypeClassifier`
+- `atlas_shared.paper_quality.PaperQualityFingerprint`
 
 Canonical contracts:
 
 - `contracts/PRE_EXTRACTION_INTAKE_CONTRACT_2026-04-17.md`
 - `contracts/PANEL_TOPIC_EVIDENCE_CONTRACT_2026-04-17.md`
+- `contracts/PAPER_QUALITY_FINGERPRINT_CONTRACT_2026-04-23.md`
 
 ## Public API Rule
 
