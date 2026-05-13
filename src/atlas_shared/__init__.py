@@ -54,6 +54,17 @@ from .relevance import (
     QuestionConstitution,
     RelevanceAssessment,
 )
+from .paper_quality import (
+    EffectSize,
+    FingerprintField,
+    HardRuleViolation,
+    PaperQualityFingerprint,
+    PaperQualityFingerprintSchema,
+    PowerRecord,
+    PreregRecord,
+    SampleOverlapEdge,
+    SourceExcerpt,
+)
 
 __version__ = "0.3.0"
 
@@ -62,6 +73,7 @@ __all__ = [
     "AdaptiveClassifierSubsystem",
     "ArticleCandidate",
     "BundleRoutingResult",
+    "PaperQualityFingerprint",
     "PreExtractionIntakeGate",
     "QuestionArticleRelevanceFilter",
     "QuestionBundleRouter",
