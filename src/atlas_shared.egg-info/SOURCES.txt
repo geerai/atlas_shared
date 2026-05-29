@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/atlas_shared/__init__.py
+src/atlas_shared/article_types.py
+src/atlas_shared/bundle_router.py
+src/atlas_shared/cli_adjudicator.py
+src/atlas_shared/registry_sink.py
+src/atlas_shared/relevance.py
+src/atlas_shared.egg-info/PKG-INFO
+src/atlas_shared.egg-info/SOURCES.txt
+src/atlas_shared.egg-info/dependency_links.txt
+src/atlas_shared.egg-info/top_level.txt
+src/atlas_shared/data/question_constitutions_starter.json
+src/atlas_shared/schemas/question_constitution.schema.json
+tests/test_bundle_router.py
+tests/test_cli_adjudicator.py
+tests/test_relevance.py
